@@ -13,6 +13,8 @@ function populateIndex(indexReference)
     </a>  
   */
  
+  let serve = "";
+
   for ([entry, info] of Object.entries(indexReference)) 
   {
     const link    = '<a class="grid-item ' + info.type + '" href=' + info.link + ' ">';
@@ -32,8 +34,11 @@ function populateIndex(indexReference)
     }
 
     const compiled = link + image + title + crumbs + text + postFace + '</p></div></a>';
-    document.getElementById("indexGrid").insertAdjacentHTML("beforeend", compiled);
+    serve += compiled;
   } 
+
+  document.getElementById("indexGrid").insertAdjacentHTML("beforeend", serve);
+
 }
 
 

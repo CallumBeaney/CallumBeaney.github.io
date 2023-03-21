@@ -30,7 +30,7 @@ primaryPages = {
     year: 2022,
     text: "Learn kanji by linking their components e.g. <moji>[虫虹工紅、寸吋囗吐土]</moji>",
     link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
-    image: "./index_images/rensou.png",
+    image: "./index_images/rensou.jpg",
     type: "programming",
   },
   c4: {
@@ -44,19 +44,18 @@ primaryPages = {
     image: "./index_images/c4.jpg",
     type: "writing",
   },
-  
-  kanjipair: {
-    name: "Kanji Pairing Game",
+  hanzipair: {
+    name: "Hanzi Pairing Game",
     author: null,
     company: null,
     field: "Software",
-    year: "2023",
-    text: "A little game where you have to figure out which kanji go with which",
-    link: "https://callumbeaney.github.io/kanji-pair-game/",
-    image: "./index_images/kanjipair.jpg",
+    year: 2023,
+    text: "A little game where you have to figure out which hanzi go with which to form a word",
+    link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
+    image: "./index_images/hanzipair.jpg",
     type: "programming",
   },
-  
+
 }
 
 secondaryPages = {
@@ -108,17 +107,18 @@ secondaryPages = {
     type: "programming",
   },
   
-  hanzipair: {
-    name: "Hanzi Pairing Game",
+  kanjipair: {
+    name: "Kanji Pairing Game",
     author: null,
     company: null,
     field: "Software",
-    year: 2023,
-    text: "A Chinese version of my kanji game.",
-    link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
-    image: "./index_images/hanzipair.jpg",
+    year: "2023",
+    text: "A Japanese version of my Hanzi game",
+    link: "https://callumbeaney.github.io/kanji-pair-game/",
+    image: "./index_images/kanjipair.jpg",
     type: "programming",
   },
+  
 
 }
 
@@ -316,6 +316,18 @@ endPages = {
     link: "./pages/dcu/dcu.html",
     image: "./index_images/dcu.jpg",
     type: "photography",
+  },
+  
+  drone: {
+    name: "Drone Music Fan Club",
+    author: null,
+    company: null,
+    field: "Music",
+    year: "2013-2017",
+    text: "An old blog I used to do about drone-based music",
+    link: "https://dronemusicfanclub.tumblr.com",
+    image: "./index_images/drone.jpg",
+    type: "music",
   },
   
 }
