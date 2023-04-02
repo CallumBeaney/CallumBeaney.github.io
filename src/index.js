@@ -70,6 +70,17 @@ secondaryPages = {
     image: "./index_images/prototype.jpg",
     type: "photography",
   },
+  people: {
+    name: "people",
+    author: null,
+    company: null,
+    field: "Software",
+    year: 2023,
+    text: "A CLI tool for tracking the number of days since you have made contact with people.",
+    link: "https://github.com/CallumBeaney/people/",
+    image: "./index_images/people.jpg",
+    type: "programming",
+  },
 
   baking: {
     name: "Gode Messes",
@@ -123,17 +134,17 @@ secondaryPages = {
 }
 
 tertiaryPages = {
-  aiai: {
-    name: "<moji class='bold'>爱愛</moji>",
-    author: null,
-    company: "Catfish Books",
-    field: "Photo Zine",
-    year: 2019,
-    text: "",
-    link: "./pages/aiai/aiai.html",
-    image: "./index_images/aiai.jpg",
-    type: "photography",
-  },
+  // aiai: {
+  //   name: "<moji class='bold'>爱愛</moji>",
+  //   author: null,
+  //   company: "Catfish Books",
+  //   field: "Photo Zine",
+  //   year: 2019,
+  //   text: "",
+  //   link: "./pages/aiai/aiai.html",
+  //   image: "./index_images/aiai.jpg",
+  //   type: "photography",
+  // },
   
   pink: {
     name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
