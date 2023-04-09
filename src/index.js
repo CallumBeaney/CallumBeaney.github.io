@@ -39,7 +39,7 @@ primaryPages = {
     company: null,
     field: "Photography Website",
     year: 2019,
-    text: "An online platform where I and a team of writers explore what makes books of photographs special",
+    text: "An online platform where I and a team of writers explore what makes a photobook special",
     link: "https://www.c4journal.com/",
     image: "./index_images/c4.jpg",
     type: "writing",
@@ -48,17 +48,18 @@ primaryPages = {
     name: "Hanzi Pairing Game",
     author: null,
     company: null,
-    field: "Software",
+    field: "Webapp",
     year: 2023,
-    text: "A little game where you have to figure out which hanzi go with which to form a word",
+    text: "16 hanzi; 8 words. Find them all to complete the grid!",
     link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
-    image: "./index_images/hanzipair.jpg",
+    image: "./index_images/hanzipair2.jpg",
     type: "programming",
   },
 
 }
 
 secondaryPages = {
+  
   prototype: {
     name: "The Prototype",
     author: "Eugenie Shinkle",
@@ -66,7 +67,7 @@ secondaryPages = {
     field: "Photobook",
     year: 2022,
     text: "A collage book inspired by industrial music & building materials",
-    link: "https://www.folium.site/shop/p/theprototype",
+    link: "./pages/prototype/prototype.html",
     image: "./index_images/prototype.jpg",
     type: "photography",
   },
@@ -118,19 +119,6 @@ secondaryPages = {
     type: "programming",
   },
   
-  kanjipair: {
-    name: "Kanji Pairing Game",
-    author: null,
-    company: null,
-    field: "Software",
-    year: "2023",
-    text: "A Japanese version of my Hanzi game",
-    link: "https://callumbeaney.github.io/kanji-pair-game/",
-    image: "./index_images/kanjipair.jpg",
-    type: "programming",
-  },
-  
-
 }
 
 tertiaryPages = {
@@ -145,6 +133,7 @@ tertiaryPages = {
   //   image: "./index_images/aiai.jpg",
   //   type: "photography",
   // },
+
   
   pink: {
     name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
@@ -194,17 +183,17 @@ tertiaryPages = {
     type: "photography",
   },
 
-  wenyan: {
-    name: "<moji class='bold'>公制到市制測量換器</moji>",
-    author: null,
-    company: null,
-    field: "programming",
-    year: 2021,
-    text: "Converts Metric units to that of the ShiZhi <moji>市制</moji> System as per 1915 regulations",
-    link: "https://github.com/CallumBeaney/WenYan-Experiments/blob/main/02.%20Metric%20to%20ShiZhi%20Converter.md",
-    image: "./index_images/wenyan.jpg",
-    type: "programming",
-  },
+  // wenyan: {
+  //   name: "<moji class='bold'>公制到市制測量換器</moji>",
+  //   author: null,
+  //   company: null,
+  //   field: "programming",
+  //   year: 2021,
+  //   text: "Converts Metric units to that of the ShiZhi <moji>市制</moji> System as per 1915 regulations",
+  //   link: "https://github.com/CallumBeaney/WenYan-Experiments/blob/main/02.%20Metric%20to%20ShiZhi%20Converter.md",
+  //   image: "./index_images/wenyan.jpg",
+  //   type: "programming",
+  // },
   
   kearton: {
     name: "On the Keartons and Historical Representations of Nature",
@@ -230,17 +219,7 @@ tertiaryPages = {
     type: "photography",
   },
 
-  rgbbmp: {
-    name: "RGB BMP Converter",
-    author: null,
-    company: null,
-    field: "Software",
-    year: 2021,
-    text: "Simple colourisation CLI tool written in C",
-    link: "https://github.com/CallumBeaney/BMP-RGB-filter",
-    image: "./index_images/bmp.jpg",
-    type: "programming",
-  },
+
   
   smilesgermany: {
     name: "Billboard",
@@ -266,18 +245,6 @@ tertiaryPages = {
     type: "photography",
   },
   
-  linkedinify: {
-    name: "Linkedin-ify",
-    author: null,
-    company: null,
-    field: "Bookmarklet",
-    year: 2022,
-    text: "An infantile bookmark script (adds extra <moji>\\n</moji> for easier reading)",
-    link: "https://callumbeaney.github.io/linkedinify/",
-    image: "https://github.com/CallumBeaney/linkedinify/blob/master/linkedin-clone-main/assets/images/header.jpeg?raw=true",
-    type: "programming",
-  },
-  
   injection: {
     name: "Translation of Sakunosuke Oda's 'Injection'",
     author: null,
@@ -301,11 +268,36 @@ tertiaryPages = {
     image: "./index_images/lake.jpg",
     type: "photography",
   },
+
+  linkedinify: {
+    name: "Linkedin-ify",
+    author: null,
+    company: null,
+    field: "Bookmarklet",
+    year: 2022,
+    text: "An infantile bookmark script (adds extra <moji>\\n</moji> for easier reading)",
+    link: "https://callumbeaney.github.io/linkedinify/",
+    image: "https://github.com/CallumBeaney/linkedinify/blob/master/linkedin-clone-main/assets/images/header.jpeg?raw=true",
+    type: "programming",
+  },
   
 }
 
 // These pages appear at the very end of the page
 endPages = {
+
+  kanjipair: {
+    name: "Kanji Pairing Game",
+    author: null,
+    company: null,
+    field: "Software",
+    year: "2023",
+    text: "A Japanese version of my Hanzi game",
+    link: "https://callumbeaney.github.io/kanji-pair-game/",
+    image: "./index_images/kanjipair.jpg",
+    type: "programming",
+  },
+
   matca: {
     name: "Conversations Around Photography, Vietnam & UK",
     author: "Matca",
@@ -317,6 +309,20 @@ endPages = {
     image: "./index_images/matca.jpg",
     type: "writing",
   },
+
+
+  // rgbbmp: {
+  //   name: "RGB BMP Converter",
+  //   author: null,
+  //   company: null,
+  //   field: "Software",
+  //   year: 2021,
+  //   text: "Simple colourisation CLI tool written in C",
+  //   link: "https://github.com/CallumBeaney/BMP-RGB-filter",
+  //   image: "./index_images/bmp.jpg",
+  //   type: "programming",
+  // },
+
   dcu: {
     name: "Cultural Heritage Work",
     author: null,
@@ -340,5 +346,7 @@ endPages = {
     image: "./index_images/drone.jpg",
     type: "music",
   },
+
+  
   
 }
