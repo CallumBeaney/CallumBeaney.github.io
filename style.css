@@ -1,4 +1,3 @@
-/**/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 html {
@@ -254,6 +253,54 @@ article {
 	padding: 5px;
 }
 
+.face {
+
+	margin: 0 !important;
+	padding: 0% !important;
+	font-family: monospace;
+	background-color: white;
+	text-align: center;
+  
+	font-size: 0.6vw; /* set base font size using viewport width */
+	line-height: 1em; /* set base line height using em units */
+	letter-spacing: -1px;
+	
+	/* font-size: 7px;
+	line-height: 7px; */
+}
+  
+  @media screen and (max-width: 900px) and (min-width: 825px) {
+	.face {
+	  font-size: 0.45vw; /* decrease font size using vw units */
+	  line-height: 1.2em; /* decrease line height using em units */
+	  letter-spacing: -1.2px;
+	  color:darkred;
+	}
+  }
+  
+  @media screen and (max-width: 824px) and (min-width: 600px) {
+	.face {
+	  font-size: 0.09vw; /* decrease font size using vw units */
+	  line-height: 7em; /* decrease line height using em units */
+	  letter-spacing: -1.75px;
+
+	  white-space: nowrap; /* prevent word wrapping */
+	  overflow: hidden; /* hide overflowing text */
+
+	}
+  }
+
+
+  @media screen and (max-width: 599px) {
+	.face {
+	  font-size: 0.5em; /* set font size using em units */
+	  line-height: 1em; /* set line height using em units */
+
+	}
+  }
+
+
+
 @media only screen and (max-width: 599px) {
 	.grid-item {
 		grid-column-end: span 10;
@@ -285,14 +332,3 @@ article {
 	}
 
 }
-/* 
-@font-face {
-	font-family: 'Neue Montreal';
-	src: url(/static/media/PPNeueMontreal-Regular.18d7c8b4.woff) format("woff");
-}
-
-@font-face {
-	font-family: 'Neue Montreal';
-	src: url(/static/media/PPNeueMontreal-Bold.d8309eac.woff) format("woff");
-	font-weight: 700;
-} */
