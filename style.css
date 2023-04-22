@@ -260,44 +260,18 @@ article {
 	font-family: monospace;
 	background-color: white;
 	text-align: center;
-  
-	font-size: 0.6vw; /* set base font size using viewport width */
+	font-size: 0.55vw; /* set base font size using viewport width */
 	line-height: 1em; /* set base line height using em units */
 	letter-spacing: -1px;
-	
+
+	/* margin-top: 10px;
+	border: 1px;
+	border-color: blue;
+	border-style: dashed;
+	 */
 	/* font-size: 7px;
 	line-height: 7px; */
 }
-  
-  @media screen and (max-width: 900px) and (min-width: 825px) {
-	.face {
-	  font-size: 0.45vw; /* decrease font size using vw units */
-	  line-height: 1.2em; /* decrease line height using em units */
-	  letter-spacing: -1.2px;
-	  color:darkred;
-	}
-  }
-  
-  @media screen and (max-width: 824px) and (min-width: 600px) {
-	.face {
-	  font-size: 0.09vw; /* decrease font size using vw units */
-	  line-height: 7em; /* decrease line height using em units */
-	  letter-spacing: -1.75px;
-
-	  white-space: nowrap; /* prevent word wrapping */
-	  overflow: hidden; /* hide overflowing text */
-
-	}
-  }
-
-
-  @media screen and (max-width: 599px) {
-	.face {
-	  font-size: 0.5em; /* set font size using em units */
-	  line-height: 1em; /* set line height using em units */
-
-	}
-  }
 
 
 
@@ -329,6 +303,11 @@ article {
 		justify-content:center;
 		border-top: 1px solid !important;
 		border-color: black;
+	}
+
+	.grid-item .face {
+		font-size: 0.4em; /* set font size using em units */
+		line-height: 1em; /* set line height using em units */
 	}
 
 }
