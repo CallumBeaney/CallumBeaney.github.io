@@ -260,9 +260,14 @@ article {
 	font-family: monospace;
 	background-color: white;
 	text-align: center;
-	font-size: 0.55vw; /* set base font size using viewport width */
+	font-size: 6px; /* set base font size using viewport width */
 	line-height: 1em; /* set base line height using em units */
 	letter-spacing: -1px;
+
+	/* prevent word wrapping */
+	white-space: nowrap;
+	/* hide overflowing text */
+	overflow: hidden; 
 
 	/* margin-top: 10px;
 	border: 1px;
@@ -273,8 +278,33 @@ article {
 	line-height: 7px; */
 }
 
-
-
+@media screen and (max-width: 810px) and (min-width: 700px) {
+	.face { 
+		font-size: 5.5px;
+		line-height: 1em;
+		letter-spacing: -1.4px;
+		color: rgb(22, 22, 22);
+	}
+	.grid-item p.abouttext {
+		font-size: medium; 
+		
+	}
+	
+}
+@media screen and (max-width: 699px) and (min-width: 600px) {
+	.face { 
+		font-size: 5.5px;
+		line-height: 1em;
+		letter-spacing: -1.7px;
+		color: rgb(22, 22, 22);
+	}
+	.grid-item p.abouttext {
+		font-size: medium; 		
+	}
+	
+}
+  
+  
 @media only screen and (max-width: 599px) {
 	.grid-item {
 		grid-column-end: span 10;
