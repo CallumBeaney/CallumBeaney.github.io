@@ -7,7 +7,7 @@ primaryPages = {
     field: "Book",
     year: 2023,
     text: "A book about photography and how it can be exhibited",
-    link: "https://www.tallpoppypress.xyz/product-page/site-specific-1",
+    link: "./pages/sitespecifc/sitespecifc.html",
     image: "./index_images/sitespecific.jpg",
     type: "photography",
   },
