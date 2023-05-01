@@ -45,6 +45,11 @@ a:hover {
 	transition: .2s;
 }
 
+/* if 3d text/images ever wanted */
+/* img:hover {
+	box-shadow: red -0.2em 2px, cyan 0.2em -2px;
+} */
+
 hr {
 	border: 1px solid;
 }
@@ -254,6 +259,10 @@ article {
 }
 
 .face {
+
+	box-sizing: inherit;
+	margin: 0px auto; 
+	/* text-shadow: red -0.5em -1px, cyan 0.5em -2px; */
 
 	margin: 0 !important;
 	padding: 0% !important;
