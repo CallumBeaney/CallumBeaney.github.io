@@ -22,17 +22,19 @@ primaryPages = {
     image: "./index_images/rfid.jpg",
     type: "programming",
   },
-  rensou: {
-    name: "<moji class='bold'>連想漢字蝶番</moji>",
+  chain: {
+    name: "<moji class='bold'>漢字連鎖</moji>",
     author: null,
     company: null,
-    field: "Webapp",
-    year: 2022,
-    text: "Learn kanji by linking their components e.g. <moji>[虫虹工紅、寸吋囗吐土]</moji>",
-    link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
-    image: "./index_images/rensou.jpg",
+    field: "Phone app",
+    year: 2023,
+    text: "Learn Chinese & Japanese characters by linking their components e.g. <moji>[虫虹工紅、寸吋囗吐土]</moji>",
+    link: "https://github.com/CallumBeaney/kanji-hanzi-chainer#readme",
+    image: "./index_images/chain.jpg",
     type: "programming",
+
   },
+  
   c4: {
     name: "C4 Journal",
     author: "Eugenie Shinkle",
@@ -244,7 +246,17 @@ tertiaryPages = {
     type: "writing",
   },
   
-
+  rensou: {
+    name: "<moji class='bold'>連想漢字蝶番</moji>",
+    author: null,
+    company: null,
+    field: "Webapp",
+    year: 2022,
+    text: "Learn Japanese by linking kanji components [<moji>prototype of 漢字連鎖</moji>]",
+    link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
+    image: "./index_images/rensou.jpg",
+    type: "programming",
+  },
 
   
   
