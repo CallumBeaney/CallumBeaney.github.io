@@ -14,7 +14,8 @@ function constructimages(folderpath, dirlen)
 
 function colourlinks(id, link) 
 {
-    const colors = ['crimson', 'forestgreen', 'sienna', 'royalblue', 'darkorchid', 'darkorange', 'orchid', 'firebrick'];
+    // const colors = ['crimson', 'forestgreen', 'sienna', 'royalblue', 'darkorchid', 'darkorange', 'orchid', 'firebrick'];
+    const colors = ['crimson', 'forestgreen', 'royalblue', 'darkorchid', 'darkorange', 'firebrick'];
     
     let elements = document.getElementById(id).getElementsByClassName(link);
     for (i=0;i<elements.length;i++) {

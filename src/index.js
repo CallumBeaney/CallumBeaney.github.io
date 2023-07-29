@@ -1,5 +1,6 @@
 // These pages appear at the very top of the page
 primaryPages = {
+
   siteSpecific: {
     name: "Site Specific: Photography Exhibitions From Around the World",
     author: "Matt Dunne",
@@ -11,17 +12,7 @@ primaryPages = {
     image: "./index_images/sitespecific.jpg",
     type: "photography",
   },
-  rfid: {
-    name: "RFID Reader Software",
-    author: null,
-    company: "CognIoT",
-    field: "Software",
-    year: 2023,
-    text: "Developing prototype software for the PirFlx2.0 RFID Reader Board",
-    link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
-    image: "./index_images/rfid.jpg",
-    type: "programming",
-  },
+
   chain: {
     name: "<moji class='bold'>漢字連鎖</moji>",
     author: null,
@@ -32,7 +23,6 @@ primaryPages = {
     link: "https://github.com/CallumBeaney/kanji-hanzi-chainer#readme",
     image: "./index_images/chain.jpg",
     type: "programming",
-
   },
   
   c4: {
@@ -46,21 +36,24 @@ primaryPages = {
     image: "./index_images/c4.jpg",
     type: "writing",
   },
-  hanzipair: {
-    name: "Hanzi Pairing Game",
+
+
+  rfid: {
+    name: "RFID Reader Software",
     author: null,
-    company: null,
-    field: "Webapp",
-    year: 2023,
-    text: "16 hanzi; 8 words. Find them all to complete the grid!",
-    link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
-    image: "./index_images/hanzipair2.jpg",
+    company: "CognIoT",
+    field: "Software",
+    year: 2022,
+    text: "Developing prototype software for the PirFlx2.0 RFID Reader Board",
+    link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
+    image: "./index_images/rfid.jpg",
     type: "programming",
   },
 
 }
 
 secondaryPages = {
+
   
   prototype: {
     name: "The Prototype",
@@ -73,6 +66,7 @@ secondaryPages = {
     image: "./index_images/prototype.jpg",
     type: "photography",
   },
+
   people: {
     name: "people",
     author: null,
@@ -96,6 +90,19 @@ secondaryPages = {
     image: "./index_images/pie.jpg",
     type: "miscellaneous",
   },
+
+  hanzipair: {
+    name: "Hanzi Pairing Game",
+    author: null,
+    company: null,
+    field: "Webapp",
+    year: 2023,
+    text: "16 hanzi; 8 words. Find them all to complete the grid!",
+    link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
+    image: "./index_images/hanzipair2.jpg",
+    type: "programming",
+  },
+
 
   snow: {
     name: "Snow",
@@ -121,9 +128,47 @@ secondaryPages = {
     type: "programming",
   },
   
+
+  tsib: {
+    name: "The Space In Between",
+    author: null,
+    company: null,
+    field: "Photobook",
+    year: 2018,
+    text: "Hand-bound, 6m-long accordion book of photographs made around the forest.",
+    link: "https://www.youtube.com/watch?v=hY5ldAtOvMQ&feature=youtu.be",
+    image: "./index_images/tsib.jpg",
+    type: "photography",
+  },
+
 }
 
 tertiaryPages = {
+
+  regex: {
+    name: "RegEx or Obfuscation?",
+    author: null,
+    company: null,
+    field: "webgame",
+    year: 2023,
+    text: "Just a dumb meme tbh",
+    link: "https://regex-or-obfuscation.web.app/#/",
+    image: "./index_images/regex.jpg",
+    type: "programming",
+  },
+
+  // chess: {
+  //   name: "Secret Chess",
+  //   author: null,
+  //   company: "Good Pals Games",
+  //   field: "Software",
+  //   year: 2023,
+  //   text: "You can only see the enemy pieces that are adjacent to your own... you have to memorize and guess the rest",
+  //   link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
+  //   image: "./index_images/rfid.jpg",
+  //   type: "programming",
+  // },
+  
   // aiai: {
   //   name: "<moji class='bold'>爱愛</moji>",
   //   author: null,
@@ -158,18 +203,6 @@ tertiaryPages = {
     text: "A show I arranged, installed, co-curated, and participated in",
     link: "./pages/singlesurface/singlesurface.html",
     image: "./index_images/singlesurface.jpg",
-    type: "photography",
-  },
-
-  tsib: {
-    name: "The Space In Between",
-    author: null,
-    company: null,
-    field: "Photobook",
-    year: 2018,
-    text: "Unpublished book dummy. Hand-bound 6m-long accordion book of photographs made around the forest.",
-    link: "https://www.youtube.com/watch?v=hY5ldAtOvMQ&feature=youtu.be",
-    image: "./index_images/tsib.jpg",
     type: "photography",
   },
 
@@ -245,18 +278,21 @@ tertiaryPages = {
     image: "./index_images/chuusha.jpg",
     type: "writing",
   },
+
+
   
-  rensou: {
-    name: "<moji class='bold'>連想漢字蝶番</moji>",
-    author: null,
-    company: null,
-    field: "Webapp",
-    year: 2022,
-    text: "Learn Japanese by linking kanji components [<moji>prototype of 漢字連鎖</moji>]",
-    link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
-    image: "./index_images/rensou.jpg",
-    type: "programming",
-  },
+  
+  // rensou: {
+  //   name: "<moji class='bold'>連想漢字蝶番</moji>",
+  //   author: null,
+  //   company: null,
+  //   field: "Webapp",
+  //   year: 2022,
+  //   text: "Learn Japanese by linking kanji components [<moji>prototype of 漢字連鎖</moji>]",
+  //   link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
+  //   image: "./index_images/rensou.jpg",
+  //   type: "programming",
+  // },
 
   
   
@@ -264,6 +300,7 @@ tertiaryPages = {
 
 // These pages appear at the very end of the page
 endPages = {
+
 
   linkedinify: {
     name: "Linkedin-ify",
@@ -326,17 +363,19 @@ endPages = {
   },
 
 
-  tree: {
-    name: "<moji style='font-size:0.95rem;'>Merry Codemas</moji>",
-    author: null,
-    company: null,
-    field: "Obfuscated Terminal Art",
-    year: 2023,
-    text: "<moji style='font-size:0.85rem;'> for(;;)<%int *＊=&／;int*ª=&／;long Var=*＊;*＊=*ª;*ª=Var*／/var%／;%></moji>",
-    link: "https://www.youtube.com/watch?v=K3nnHeOknUk",
-    image: "./index_images/tree.jpg",
-    type: "programming",
-  },
+
+
+  // tree: {
+  //   name: "<moji style='font-size:0.95rem;'>Merry Codemas</moji>",
+  //   author: null,
+  //   company: null,
+  //   field: "Obfuscated Terminal Art",
+  //   year: 2023,
+  //   text: "<moji style='font-size:0.85rem;'> for(;;)<%int *＊=&／;int*ª=&／;long Var=*＊;*＊=*ª;*ª=Var*／/var%／;%></moji>",
+  //   link: "https://www.youtube.com/watch?v=K3nnHeOknUk",
+  //   image: "./index_images/tree.jpg",
+  //   type: "programming",
+  // },
 
   // rgbbmp: {
   //   name: "RGB BMP Converter",
