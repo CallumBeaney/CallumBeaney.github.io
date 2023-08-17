@@ -11,6 +11,7 @@ primaryPages = {
     link: "./pages/sitespecifc/sitespecifc.html",
     image: "./index_images/sitespecific.jpg",
     type: "photography",
+    rank: 1,
   },
 
   chain: {
@@ -23,6 +24,7 @@ primaryPages = {
     link: "https://github.com/CallumBeaney/kanji-hanzi-chainer#readme",
     image: "./index_images/chain.jpg",
     type: "programming",
+    rank: 1,
   },
   
   c4: {
@@ -35,20 +37,22 @@ primaryPages = {
     link: "https://www.c4journal.com/",
     image: "./index_images/c4.jpg",
     type: "writing",
+    rank: 1,
   },
 
 
-  rfid: {
-    name: "RFID Reader Software",
-    author: null,
-    company: "CognIoT",
-    field: "Software",
-    year: 2022,
-    text: "Developing prototype software for the PirFlx2.0 RFID Reader Board",
-    link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
-    image: "./index_images/rfid.jpg",
-    type: "programming",
-  },
+  // rfid: {
+  //   name: "RFID Reader Software",
+  //   author: null,
+  //   company: "CognIoT",
+  //   field: "Software",
+  //   year: 2022,
+  //   text: "Developing prototype software for the PirFlx2.0 RFID Reader Board",
+  //   link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
+  //   image: "./index_images/rfid.jpg",
+  //   type: "programming",
+  //   rank: 2,
+  // },
 
 }
 
@@ -65,6 +69,7 @@ secondaryPages = {
     link: "./pages/prototype/prototype.html",
     image: "./index_images/prototype.jpg",
     type: "photography",
+    rank: 2,
   },
 
   people: {
@@ -77,6 +82,8 @@ secondaryPages = {
     link: "https://github.com/CallumBeaney/people/",
     image: "./index_images/people.jpg",
     type: "programming",
+    rank: 2,
+
   },
 
   baking: {
@@ -89,6 +96,7 @@ secondaryPages = {
     link: "./pages/baking/baking.html",
     image: "./index_images/pie.jpg",
     type: "miscellaneous",
+    rank: 2,
   },
 
   hanzipair: {
@@ -101,6 +109,7 @@ secondaryPages = {
     link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
     image: "./index_images/hanzipair2.jpg",
     type: "programming",
+    rank: 2,
   },
 
 
@@ -114,6 +123,7 @@ secondaryPages = {
     link: "./pages/snow/snow.html",
     image: "./index_images/snow.jpg",
     type: "photography",
+    rank: 1,
   },
 
   mathConverter: {
@@ -126,6 +136,7 @@ secondaryPages = {
     link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
     image: "./index_images/symbolic.jpg",
     type: "programming",
+    rank: 3,
   },
   
 
@@ -139,6 +150,7 @@ secondaryPages = {
     link: "https://www.youtube.com/watch?v=hY5ldAtOvMQ&feature=youtu.be",
     image: "./index_images/tsib.jpg",
     type: "photography",
+    rank: 2,
   },
 
 }
@@ -155,6 +167,7 @@ tertiaryPages = {
     link: "https://regex-or-obfuscation.web.app/#/",
     image: "./index_images/regex.jpg",
     type: "programming",
+    rank: 2,
   },
 
   // chess: {
@@ -192,6 +205,7 @@ tertiaryPages = {
     link: "./pages/pink/pink.html",
     image: "./index_images/pink.jpg",
     type: "photography",
+    rank: 3,
   },
 
   singlesurface: {
@@ -204,6 +218,7 @@ tertiaryPages = {
     link: "./pages/singlesurface/singlesurface.html",
     image: "./index_images/singlesurface.jpg",
     type: "photography",
+    rank: 3,
   },
 
   autumnWinter: {
@@ -216,6 +231,7 @@ tertiaryPages = {
     link: "https://www.phasesmag.com/callum-beaney/autumn-winter-passing/",
     image: "./index_images/bird.jpg",
     type: "photography",
+    rank: 2,
   },
 
 
@@ -241,6 +257,7 @@ tertiaryPages = {
     link: "https://c4journal.com/matcaxc4-10-keartons/",
     image: "./index_images/keartonbook.jpg",
     type: "photography",
+    rank: 4,
   },
 
   nottsExhibition: {
@@ -253,6 +270,7 @@ tertiaryPages = {
     link: "./pages/nottsexhibition/dayNight.html",
     image: "./index_images/notts.jpg",
     type: "photography",
+    rank: 3,
   },
 
   somemoments: {
@@ -265,6 +283,7 @@ tertiaryPages = {
     link: "./pages/somemoments/somemoments.html",
     image: "./index_images/somemoments.jpg",
     type: "photography",
+    rank: 2,
   },
   
   injection: {
@@ -277,6 +296,7 @@ tertiaryPages = {
     link: "./pages/chuusha/chuusha.html",
     image: "./index_images/chuusha.jpg",
     type: "writing",
+    rank: 4,
   },
 
 
@@ -312,6 +332,7 @@ endPages = {
     link: "https://callumbeaney.github.io/linkedinify/",
     image: "https://github.com/CallumBeaney/linkedinify/blob/master/linkedin-clone-main/assets/images/header.jpeg?raw=true",
     type: "programming",
+    rank: 5,
   },
 
   lake: {
@@ -324,6 +345,7 @@ endPages = {
     link: "./pages/lake/lake.html",
     image: "./index_images/lake.jpg",
     type: "photography",
+    rank: 5,
   },
 
   smilesgermany: {
@@ -336,6 +358,7 @@ endPages = {
     link: "./pages/smilesgermany/smilesgermany.html",
     image: "./index_images/smilesgermany.jpg",
     type: "programming",
+    rank: 5,
   },
 
   // kanjipair: {
@@ -360,6 +383,7 @@ endPages = {
     link: "https://c4journal.com/matca-c4journal/",
     image: "./index_images/matca.jpg",
     type: "writing",
+    rank: 5,
   },
 
 
@@ -399,6 +423,7 @@ endPages = {
     link: "./pages/dcu/dcu.html",
     image: "./index_images/dcu.jpg",
     type: "photography",
+    rank: 3,
   },
   
   drone: {
@@ -411,6 +436,7 @@ endPages = {
     link: "https://dronemusicfanclub.tumblr.com",
     image: "./index_images/drone.jpg",
     type: "music",
+    rank: 5,
   },
 
   

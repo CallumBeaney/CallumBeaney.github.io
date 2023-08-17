@@ -9,17 +9,23 @@ function constructimages(folderpath, dirlen)
       builder += '<div class="grid-item"><img src="' + folderpath + index + '.jpg' + '"></img></div>';
     }
     document.getElementById("indexGrid").insertAdjacentHTML("beforeend", builder);
-
-}
-
-function colourlinks(id, link) 
-{
-    // const colors = ['crimson', 'forestgreen', 'sienna', 'royalblue', 'darkorchid', 'darkorange', 'orchid', 'firebrick'];
-    const colors = ['crimson', 'forestgreen', 'royalblue', 'darkorchid', 'darkorange', 'firebrick'];
-    
-    let elements = document.getElementById(id).getElementsByClassName(link);
-    for (i=0;i<elements.length;i++) {
-      let random_color = colors[Math.floor(Math.random() * colors.length)];
-      elements[i].style.color = random_color;
-    }
   }
+
+  function shuffleArray(array) {
+    // () => Math.random() - 0.5 generates random values for comparison, which effectively shuffles the array. The slice() method is used to create a shallow copy of the original array before shuffling, so the original colors array remains unchanged
+      return array.slice().sort(() => Math.random() - 0.5);
+  }
+
+  function colourlinks(id, link) {
+    // const colors = ['crimson', 'forestgreen', 'royalblue', 'darkorchid', 'darkorange', 'firebrick'];
+        const colors = ['crimson', 'forestgreen', 'sienna', 'royalblue', 'darkorchid', 'darkorange', 'orchid', 'firebrick'];
+
+    const shuffledColors = shuffleArray(colors);
+
+    let elements = document.getElementById(id).getElementsByClassName(link);
+
+    for (i = 0; i < elements.length; i++) {
+        next_colour = shuffledColors[i % shuffledColors.length];
+        elements[i].style.color = next_colour;
+    }
+}
