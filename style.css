@@ -347,6 +347,8 @@ article {
 	.grid-item .face {
 		font-size: 0.4em; /* set font size using em units */
 		line-height: 1em; /* set line height using em units */
+		letter-spacing: -1.7px;
+
 	}
 
 }

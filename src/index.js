@@ -14,6 +14,19 @@ primaryPages = {
     rank: 1,
   },
 
+  snow: {
+    name: "Snow",
+    author: "Wesley Stringer",
+    company: null,
+    field: "Photography",
+    year: 2022,
+    text: "A portfolio of photographs I made of snow",
+    link: "./pages/snow/snow.html",
+    image: "./index_images/snow.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   chain: {
     name: "<moji class='bold'>漢字連鎖</moji>",
     author: null,
@@ -110,34 +123,7 @@ secondaryPages = {
     image: "./index_images/hanzipair2.jpg",
     type: "programming",
     rank: 2,
-  },
-
-
-  snow: {
-    name: "Snow",
-    author: "Wesley Stringer",
-    company: null,
-    field: "Photography",
-    year: 2022,
-    text: "A portfolio of photographs I made of snow",
-    link: "./pages/snow/snow.html",
-    image: "./index_images/snow.jpg",
-    type: "photography",
-    rank: 1,
-  },
-
-  mathConverter: {
-    name: "English → Symbolic",
-    author: null,
-    company: null,
-    field: "Webapp",
-    year: 2022,
-    text: "LaTeX-free logic conversion e.g. [all var in dd goe pi] → [∀𝑥 ∈ 𝔻 ≥ π ]",
-    link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
-    image: "./index_images/symbolic.jpg",
-    type: "programming",
-    rank: 3,
-  },
+  }, 
   
 
   tsib: {
@@ -194,6 +180,18 @@ tertiaryPages = {
   //   type: "photography",
   // },
 
+  mathConverter: {
+    name: "English → Symbolic",
+    author: null,
+    company: null,
+    field: "Webapp",
+    year: 2022,
+    text: "LaTeX-free logic conversion e.g. [all var in dd goe pi] → [∀𝑥 ∈ 𝔻 ≥ π ]",
+    link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
+    image: "./index_images/symbolic.jpg",
+    type: "programming",
+    rank: 3,
+  },
   
   pink: {
     name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
@@ -234,19 +232,6 @@ tertiaryPages = {
     rank: 2,
   },
 
-
-  // wenyan: {
-  //   name: "<moji class='bold'>公制到市制測量換器</moji>",
-  //   author: null,
-  //   company: null,
-  //   field: "programming",
-  //   year: 2021,
-  //   text: "Converts Metric units to that of the ShiZhi <moji>市制</moji> System as per 1915 regulations",
-  //   link: "https://github.com/CallumBeaney/WenYan-Experiments/blob/main/02.%20Metric%20to%20ShiZhi%20Converter.md",
-  //   image: "./index_images/wenyan.jpg",
-  //   type: "programming",
-  // },
-  
   kearton: {
     name: "On the Keartons and Historical Representations of Nature",
     author: null,
@@ -299,21 +284,18 @@ tertiaryPages = {
     rank: 4,
   },
 
-
-  
-  
-  // rensou: {
-  //   name: "<moji class='bold'>連想漢字蝶番</moji>",
-  //   author: null,
-  //   company: null,
-  //   field: "Webapp",
-  //   year: 2022,
-  //   text: "Learn Japanese by linking kanji components [<moji>prototype of 漢字連鎖</moji>]",
-  //   link: "https://callumbeaney.github.io/rensou-kanji-hinge/",
-  //   image: "./index_images/rensou.jpg",
-  //   type: "programming",
-  // },
-
+  nightpics: {
+    name: "snow pictures at night",
+    author: null,
+    company: null,
+    field: "Photography",
+    year: 2018,
+    text: "pictures of a snowy night",
+    link: "./pages/winterscape/winterstory.html",
+    image: "./index_images/winterscape.jpg",
+    type: "photography",
+    rank: 2,
+  }
   
   
 }
