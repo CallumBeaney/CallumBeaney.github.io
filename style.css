@@ -23,8 +23,6 @@ body {
 	font-size: xx-large;
 } */
 
-
-
 h5 {
 	margin-top: 0;
 }
@@ -296,7 +294,6 @@ article {
 	}
 	.grid-item p.abouttext {
 		font-size: medium; 
-		
 	}
 	
 }
@@ -315,6 +312,7 @@ article {
   
   
 @media only screen and (max-width: 599px) {
+
 	.grid-item {
 		grid-column-end: span 10;
 		padding: 2.5%;

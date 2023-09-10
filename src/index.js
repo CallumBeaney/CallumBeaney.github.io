@@ -33,8 +33,8 @@ primaryPages = {
     company: null,
     field: "Phone app",
     year: 2023,
-    text: "Learn Chinese & Japanese characters by linking their components e.g. <moji>[虫虹工紅、寸吋囗吐土]</moji>",
-    link: "https://github.com/CallumBeaney/kanji-hanzi-chainer#readme",
+    text: "Learn Chinese & Japanese characters by linking their components e.g. <moji>[虫 ➝ 虹 ➝ 工 ➝ 紅 ➝ 糸]</moji>",
+    link: "https://www.youtube.com/watch?v=jX7gpOEINsg",
     image: "./index_images/chain.jpg",
     type: "programming",
     rank: 1,
@@ -105,25 +105,37 @@ secondaryPages = {
     company: null,
     field: "Baking",
     year: 2022,
-    text: "Ich haue stodied for to make þese messes from þ boke The Forme of Cury (c. 1390)",
+    text: "Ich haue stodied for to make þese messes from þe boke The Forme of Cury (c. 1390)",
     link: "./pages/baking/baking.html",
     image: "./index_images/pie.jpg",
     type: "miscellaneous",
     rank: 2,
   },
 
-  hanzipair: {
-    name: "Hanzi Pairing Game",
+  kanjipair: {
+    name: "Kanji Pairing Game",
     author: null,
     company: null,
-    field: "Webapp",
-    year: 2023,
-    text: "16 hanzi; 8 words. Find them all to complete the grid!",
-    link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
-    image: "./index_images/hanzipair2.jpg",
+    field: "Software",
+    year: "2023",
+    text: "A Japanese version of my Hanzi game",
+    link: "https://callumbeaney.github.io/kanji-pair-game/",
+    image: "./index_images/kanjipair.jpg",
     type: "programming",
-    rank: 2,
-  }, 
+  },
+
+  // hanzipair: {
+  //   name: "Hanzi Pairing Game",
+  //   author: null,
+  //   company: null,
+  //   field: "Webapp",
+  //   year: 2023,
+  //   text: "16 hanzi; 8 words. Find them all to complete the grid!",
+  //   link: "https://callumbeaney.github.io/chinese-wordsearch-game/",
+  //   image: "./index_images/hanzipair2.jpg",
+  //   type: "programming",
+  //   rank: 2,
+  // }, 
   
 
   tsib: {
@@ -132,7 +144,7 @@ secondaryPages = {
     company: null,
     field: "Photobook",
     year: 2018,
-    text: "Hand-bound, 6m-long accordion book of photographs made around the forest.",
+    text: "Hand-bound, 6m-long accordion book of photographs made around the forest. Since revised but revision not yet filmed",
     link: "https://www.youtube.com/watch?v=hY5ldAtOvMQ&feature=youtu.be",
     image: "./index_images/tsib.jpg",
     type: "photography",
@@ -142,6 +154,19 @@ secondaryPages = {
 }
 
 tertiaryPages = {
+
+  lucky: {
+    name: "Lucky",
+    author: null,
+    company: null,
+    field: "short story",
+    year: 2022,
+    text: "A short story I wrote about a cat",
+    link: "./pages/lucky/lucky.html",
+    image: "./index_images/lucky.jpg",
+    type: "Writing",
+    rank: 3,
+  },
 
   regex: {
     name: "RegEx or Obfuscation?",
@@ -190,19 +215,6 @@ tertiaryPages = {
     link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
     image: "./index_images/symbolic.jpg",
     type: "programming",
-    rank: 3,
-  },
-  
-  pink: {
-    name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
-    author: null,
-    company: null,
-    field: "Photography?",
-    year: 2018,
-    text: "This is a photograph that was made without using light",
-    link: "./pages/pink/pink.html",
-    image: "./index_images/pink.jpg",
-    type: "photography",
     rank: 3,
   },
 
@@ -317,18 +329,18 @@ endPages = {
     rank: 5,
   },
 
-  lake: {
-    name: "'The Prototype' at Lake",
-    author: "Eugenie Shinkle",
-    company: "Folium",
-    field: "Exhibition",
-    year: 2023,
-    text: "A team-built picture/noise installation",
-    link: "./pages/lake/lake.html",
-    image: "./index_images/lake.jpg",
-    type: "photography",
-    rank: 5,
-  },
+  // lake: {
+  //   name: "'The Prototype' at Lake",
+  //   author: "Eugenie Shinkle",
+  //   company: "Folium",
+  //   field: "Exhibition",
+  //   year: 2023,
+  //   text: "A team-built picture/noise installation",
+  //   link: "./pages/lake/lake.html",
+  //   image: "./index_images/lake.jpg",
+  //   type: "photography",
+  //   rank: 5,
+  // },
 
   smilesgermany: {
     name: "Billboard",
@@ -343,18 +355,6 @@ endPages = {
     rank: 5,
   },
 
-  // kanjipair: {
-  //   name: "Kanji Pairing Game",
-  //   author: null,
-  //   company: null,
-  //   field: "Software",
-  //   year: "2023",
-  //   text: "A Japanese version of my Hanzi game",
-  //   link: "https://callumbeaney.github.io/kanji-pair-game/",
-  //   image: "./index_images/kanjipair.jpg",
-  //   type: "programming",
-  // },
-
   matca: {
     name: "Conversations Around Photography, Vietnam & UK",
     author: "Matca",
@@ -368,6 +368,18 @@ endPages = {
     rank: 5,
   },
 
+  pink: {
+    name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
+    author: null,
+    company: null,
+    field: "Photography?",
+    year: 2018,
+    text: "This is a photograph that was made without using light",
+    link: "./pages/pink/pink.html",
+    image: "./index_images/pink.jpg",
+    type: "photography",
+    rank: 3,
+  },
 
 
 
