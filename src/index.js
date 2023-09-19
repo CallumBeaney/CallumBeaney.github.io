@@ -181,6 +181,19 @@ tertiaryPages = {
     rank: 2,
   },
 
+  flowers: {
+    name: "plant pictures",
+    author: null,
+    company: null,
+    field: "photography",
+    year: "2013-2023",
+    text: "please proceed to preview previously photographed plant pictures, their proposed purpose of presentation presently in progress",
+    link: "./pages/flowers/flowers.html",
+    image: "./index_images/flowers.jpg",
+    type: "Photography",
+    rank: 3,
+  },
+
   // chess: {
   //   name: "Secret Chess",
   //   author: null,
