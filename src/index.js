@@ -85,19 +85,18 @@ secondaryPages = {
     rank: 2,
   },
 
-  people: {
-    name: "people",
-    author: null,
-    company: null,
-    field: "Software",
-    year: 2023,
-    text: "A CLI tool for tracking the number of days since you have made contact with people.",
-    link: "https://github.com/CallumBeaney/people/",
-    image: "./index_images/people.jpg",
-    type: "programming",
-    rank: 2,
-
-  },
+  // middle: {
+  //   name: "Middle English Mouse Dictionary",
+  //   author: "Alex Baker",
+  //   company: "Good Pals Games",
+  //   field: "Software/Cultural Heritage",
+  //   year: 2023,
+  //   text: "a browser extension to assist in reading middle english web pages.",
+  //   link: "https://github.com/goodpals/Middle-English-Mouse-Dictionary",
+  //   image: "./index_images/middle.jpg",
+  //   type: "programming",
+  //   rank: 2,
+  // },
 
   baking: {
     name: "Gode Messes",
@@ -123,6 +122,33 @@ secondaryPages = {
     image: "./index_images/kanjipair.jpg",
     type: "programming",
   },
+
+  flowers: {
+    name: "colour pictures",
+    author: null,
+    company: null,
+    field: "Photographs",
+    year: "2013 - 2023",
+    text: "...of flowers and cats and trees and apples and other such stuff",
+    link: "./pages/flowers/flowers.html",
+    image: "./index_images/flowers.jpg",
+    type: "Photography",
+    rank: 3,
+  },
+
+  sucker: {
+    name: "<moji class='bold'>Sucker</moji>",
+    author: null,
+    company: null,
+    field: "Photography",
+    year: "2020 - 2023",
+    text: "advertisements are creepy",
+    link: "./pages/sucker/sucker.html",
+    image: "./index_images/sucker.jpg",
+    type: "photography",
+    rank: 2,
+  },
+  
 
   // hanzipair: {
   //   name: "Hanzi Pairing Game",
@@ -155,6 +181,20 @@ secondaryPages = {
 
 tertiaryPages = {
 
+  people: {
+    name: "people",
+    author: null,
+    company: null,
+    field: "Software",
+    year: 2023,
+    text: "A CLI tool for tracking the number of days since you have made contact with people.",
+    link: "https://github.com/CallumBeaney/people/",
+    image: "./index_images/people.jpg",
+    type: "programming",
+    rank: 2,
+
+  },
+
   lucky: {
     name: "Lucky",
     author: null,
@@ -181,18 +221,7 @@ tertiaryPages = {
     rank: 2,
   },
 
-  flowers: {
-    name: "colour pictures",
-    author: null,
-    company: null,
-    field: "Photographs",
-    year: "2013-2023",
-    text: "...of flowers and cats and trees and apples and other such stuff",
-    link: "./pages/flowers/flowers.html",
-    image: "./index_images/flowers.jpg",
-    type: "Photography",
-    rank: 3,
-  },
+
 
   // chess: {
   //   name: "Secret Chess",
@@ -355,18 +384,18 @@ endPages = {
   //   rank: 5,
   // },
 
-  smilesgermany: {
-    name: "Billboard",
-    author: null,
-    company: "Studio Othertypes",
-    field: "Exhibition",
-    year: 2020,
-    text: "Advertisements reworked into a poster, put up in Germany",
-    link: "./pages/smilesgermany/smilesgermany.html",
-    image: "./index_images/smilesgermany.jpg",
-    type: "programming",
-    rank: 5,
-  },
+  // smilesgermany: {
+  //   name: "Billboard",
+  //   author: null,
+  //   company: "Studio Othertypes",
+  //   field: "Exhibition",
+  //   year: 2020,
+  //   text: "Advertisements reworked into a poster, put up in Germany",
+  //   link: "./pages/smilesgermany/smilesgermany.html",
+  //   image: "./index_images/smilesgermany.jpg",
+  //   type: "programming",
+  //   rank: 5,
+  // },
 
   matca: {
     name: "Conversations Around Photography, Vietnam & UK",
