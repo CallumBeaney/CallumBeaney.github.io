@@ -85,18 +85,18 @@ secondaryPages = {
     rank: 2,
   },
 
-  // middle: {
-  //   name: "Middle English Mouse Dictionary",
-  //   author: "Alex Baker",
-  //   company: "Good Pals Games",
-  //   field: "Software/Cultural Heritage",
-  //   year: 2023,
-  //   text: "a browser extension to assist in reading middle english web pages.",
-  //   link: "https://github.com/goodpals/Middle-English-Mouse-Dictionary",
-  //   image: "./index_images/middle.jpg",
-  //   type: "programming",
-  //   rank: 2,
-  // },
+  middle: {
+    name: "Middle English Mouse Dictionary",
+    author: "Alex Baker",
+    company: "Good Pals Games",
+    field: "Software/Cultural Heritage",
+    year: 2023,
+    text: "a browser extension to assist in reading middle english web pages.",
+    link: "https://github.com/goodpals/Middle-English-Mouse-Dictionary",
+    image: "./index_images/middle.jpg",
+    type: "programming",
+    rank: 2,
+  },
 
   baking: {
     name: "Gode Messes",
