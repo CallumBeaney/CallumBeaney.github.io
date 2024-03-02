@@ -19,7 +19,7 @@ primaryPages = {
     author: "Alex Baker",
     company: "Good Pals Games",
     field: "Software/Cultural Heritage",
-    year: 2023,
+    year: 2024,
     text: "a browser extension to assist in reading middle english web pages.",
     link: "https://github.com/goodpals/Middle-English-Mouse-Dictionary",
     image: "./index_images/middle.jpg",
@@ -223,8 +223,6 @@ tertiaryPages = {
     rank: 2,
   },
 
-
-
   // chess: {
   //   name: "Secret Chess",
   //   author: null,
@@ -359,6 +357,18 @@ tertiaryPages = {
 // These pages appear at the very end of the page
 endPages = {
 
+  christmasCard: {
+    name: "Code Christmas Card",
+    author: null,
+    company: null,
+    field: "Programming/Design",
+    year: 2024,
+    text: "Cards made to share a cute ASCII animation, in 16 lines of code",
+    link: "https://github.com/CallumBeaney/christmas-tree-card",
+    image: "./index_images/card.jpg",
+    type: "programming",
+    rank: 2,
+  },
 
   linkedinify: {
     name: "Linkedin-ify",

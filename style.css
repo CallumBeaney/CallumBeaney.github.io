@@ -5,6 +5,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+
 body {
 	margin: 0;
 	overflow-x: hidden;
@@ -37,6 +38,7 @@ a {
 	color:forestgreen;
 	text-decoration: underline;
 }
+
 
 a:hover {
 	opacity: .6;
@@ -134,6 +136,8 @@ article {
 	position: relative;
 	word-wrap: break-word;
 }
+
+
 
 
 .grid-item p.abouttext {
@@ -241,7 +245,7 @@ article {
 	font-family: 'Playfair Display', serif;
 }
 .logo:hover{
-	opacity: .6;
+	opacity: .9;
 	transition: .2s;
 }
 
@@ -257,7 +261,6 @@ article {
 }
 
 .face {
-
 	box-sizing: inherit;
 	margin: 0px auto; 
 	/* text-shadow: red -0.5em -1px, cyan 0.5em -2px; */
@@ -283,6 +286,10 @@ article {
 	 */
 	/* font-size: 7px;
 	line-height: 7px; */
+}
+
+.face:hover{
+	text-shadow: -0.8em 0 cyan,  0.8em 0 red; /* This creates the 3D effect, pretty easy, eh? */
 }
 
 @media screen and (max-width: 810px) and (min-width: 700px) {
