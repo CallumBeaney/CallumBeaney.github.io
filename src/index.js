@@ -125,18 +125,31 @@ secondaryPages = {
     type: "programming",
   },
 
-  flowers: {
-    name: "colour pictures",
+  middle: {
+    name: "<moji class='bold'>A Potential Spatial Writing System</moji>",
     author: null,
     company: null,
-    field: "Photographs",
-    year: "2013 - 2023",
-    text: "...of flowers and cats and trees and apples and other such stuff",
-    link: "./pages/flowers/flowers.html",
-    image: "./index_images/flowers.jpg",
-    type: "Photography",
-    rank: 3,
+    field: "Software/Cultural Heritage",
+    year: 2021,
+    text: "A book/grammar system I made",
+    link: "./pages/apsws/apsws.html",
+    image: "./index_images/apsws.jpg",
+    type: "photography",
+    rank: 2,
   },
+
+  // flowers: {
+  //   name: "colour pictures",
+  //   author: null,
+  //   company: null,
+  //   field: "Photographs",
+  //   year: "2013 - 2023",
+  //   text: "...of flowers and cats and trees and apples and other such stuff",
+  //   link: "./pages/flowers/flowers.html",
+  //   image: "./index_images/flowers.jpg",
+  //   type: "Photography",
+  //   rank: 3,
+  // },
 
   sucker: {
     name: "<moji class='bold'>Sucker</moji>",
