@@ -129,7 +129,7 @@ secondaryPages = {
     name: "<moji class='bold'>A Potential Spatial Writing System</moji>",
     author: null,
     company: null,
-    field: "Software/Cultural Heritage",
+    field: "art idk",
     year: 2021,
     text: "A book/grammar system I made",
     link: "./pages/apsws/apsws.html",
