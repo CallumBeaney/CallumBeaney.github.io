@@ -66,20 +66,6 @@ primaryPages = {
     rank: 1,
   },
 
-
-  // rfid: {
-  //   name: "RFID Reader Software",
-  //   author: null,
-  //   company: "CognIoT",
-  //   field: "Software",
-  //   year: 2022,
-  //   text: "Developing prototype software for the PirFlx2.0 RFID Reader Board",
-  //   link: "https://www.youtube.com/watch?v=z8FjJ5C5CEw",
-  //   image: "./index_images/rfid.jpg",
-  //   type: "programming",
-  //   rank: 2,
-  // },
-
 }
 
 secondaryPages = {
@@ -97,7 +83,6 @@ secondaryPages = {
     type: "photography",
     rank: 2,
   },
-
 
 
   baking: {
@@ -125,18 +110,7 @@ secondaryPages = {
     type: "programming",
   },
 
-  middle: {
-    name: "<moji class='bold'>A Potential Spatial Writing System</moji>",
-    author: null,
-    company: null,
-    field: "art idk",
-    year: 2021,
-    text: "A book/grammar system I made",
-    link: "./pages/apsws/apsws.html",
-    image: "./index_images/apsws.jpg",
-    type: "photography",
-    rank: 2,
-  },
+
 
   // flowers: {
   //   name: "colour pictures",
@@ -194,6 +168,8 @@ secondaryPages = {
 
 }
 
+
+
 tertiaryPages = {
 
   people: {
@@ -210,6 +186,21 @@ tertiaryPages = {
 
   },
 
+
+  spatial: {
+    name: "<moji class='bold'>A Potential Spatial Writing System</moji>",
+    author: null,
+    company: null,
+    field: "art idk",
+    year: 2021,
+    text: "A book/grammar system I made",
+    link: "./pages/apsws/apsws.html",
+    image: "./index_images/apsws.jpg",
+    type: "photography",
+    rank: 2,
+  },
+
+
   lucky: {
     name: "Lucky",
     author: null,
@@ -223,18 +214,6 @@ tertiaryPages = {
     rank: 3,
   },
 
-  regex: {
-    name: "RegEx or Obfuscation?",
-    author: null,
-    company: null,
-    field: "webgame",
-    year: 2023,
-    text: "Just a dumb meme tbh",
-    link: "https://regex-or-obfuscation.web.app/#/",
-    image: "./index_images/regex.jpg",
-    type: "programming",
-    rank: 2,
-  },
 
   // chess: {
   //   name: "Secret Chess",
@@ -370,6 +349,20 @@ tertiaryPages = {
 // These pages appear at the very end of the page
 endPages = {
 
+  regex: {
+    name: "RegEx or Obfuscation?",
+    author: null,
+    company: null,
+    field: "webgame",
+    year: 2023,
+    text: "Just a dumb meme tbh",
+    link: "https://regex-or-obfuscation.web.app/#/",
+    image: "./index_images/regex.jpg",
+    type: "programming",
+    rank: 2,
+  },
+
+  
   christmasCard: {
     name: "Code Christmas Card",
     author: null,
@@ -435,18 +428,18 @@ endPages = {
     rank: 5,
   },
 
-  pink: {
-    name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
-    author: null,
-    company: null,
-    field: "Photography?",
-    year: 2018,
-    text: "This is a photograph that was made without using light",
-    link: "./pages/pink/pink.html",
-    image: "./index_images/pink.jpg",
-    type: "photography",
-    rank: 3,
-  },
+  // pink: {
+  //   name: "<moji style='font-size:0.95rem;'>_DSC3071.jpg</moji>",
+  //   author: null,
+  //   company: null,
+  //   field: "Photography?",
+  //   year: 2018,
+  //   text: "This is a photograph that was made without using light",
+  //   link: "./pages/pink/pink.html",
+  //   image: "./index_images/pink.jpg",
+  //   type: "photography",
+  //   rank: 3,
+  // },
 
 
 
@@ -474,18 +467,18 @@ endPages = {
   //   type: "programming",
   // },
 
-  dcu: {
-    name: "Cultural Heritage Work",
-    author: null,
-    company: "Digital Content Unit, Cambridge Univeristy Library",
-    field: "Photography",
-    year: "2018-2019",
-    text: "A summary of my work in archives",
-    link: "./pages/dcu/dcu.html",
-    image: "./index_images/dcu.jpg",
-    type: "photography",
-    rank: 3,
-  },
+  // dcu: {
+  //   name: "Cultural Heritage Work",
+  //   author: null,
+  //   company: "Digital Content Unit, Cambridge Univeristy Library",
+  //   field: "Photography",
+  //   year: "2018-2019",
+  //   text: "A summary of my work in archives",
+  //   link: "./pages/dcu/dcu.html",
+  //   image: "./index_images/dcu.jpg",
+  //   type: "photography",
+  //   rank: 3,
+  // },
   
   drone: {
     name: "Drone Music Fan Club",
