@@ -17,7 +17,7 @@ primaryPages = {
   middle: {
     name: "Middle English Mouse Dictionary",
     author: "Alex Baker",
-    company: "Good Pals Games",
+    company: "Good Pals",
     field: "Software/Cultural Heritage",
     year: 2024,
     text: "a browser extension to assist in reading middle english web pages.",
@@ -218,7 +218,7 @@ tertiaryPages = {
   // chess: {
   //   name: "Secret Chess",
   //   author: null,
-  //   company: "Good Pals Games",
+  //   company: "Goodpals",
   //   field: "Software",
   //   year: 2023,
   //   text: "You can only see the enemy pieces that are adjacent to your own... you have to memorize and guess the rest",
