@@ -66,6 +66,20 @@ primaryPages = {
     rank: 1,
   },
 
+  christmasCard: {
+    name: "Code Christmas Card",
+    author: null,
+    company: null,
+    field: "Programming/Design",
+    year: 2024,
+    text: "Cards made to share a cute ASCII animation, in 16 lines of code",
+    link: "https://callumbeaney.github.io/blogge/blog/christmascard/",
+    image: "./index_images/card.jpg",
+    type: "programming",
+    rank: 1,
+  },
+
+
 }
 
 secondaryPages = {
@@ -358,20 +372,6 @@ endPages = {
     text: "Just a dumb meme tbh",
     link: "https://regex-or-obfuscation.web.app/#/",
     image: "./index_images/regex.jpg",
-    type: "programming",
-    rank: 2,
-  },
-
-  
-  christmasCard: {
-    name: "Code Christmas Card",
-    author: null,
-    company: null,
-    field: "Programming/Design",
-    year: 2024,
-    text: "Cards made to share a cute ASCII animation, in 16 lines of code",
-    link: "https://github.com/CallumBeaney/christmas-tree-card",
-    image: "./index_images/card.jpg",
     type: "programming",
     rank: 2,
   },
