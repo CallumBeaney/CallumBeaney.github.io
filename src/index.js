@@ -66,6 +66,26 @@ primaryPages = {
     rank: 1,
   },
 
+
+  recentLandscapes: {
+    name: "Recent Scanned Negatives",
+    author: null,
+    company: null,
+    field: "Photography",
+    year: 2025,
+    text: "",
+    link: "./pages/recentLandscape/recentLandscape.html",
+    image: "./index_images/recents.jpg",
+    type: "Photography",
+    rank: 3,
+  },
+
+
+}
+
+secondaryPages = {
+
+
   christmasCard: {
     name: "Code Christmas Card",
     author: null,
@@ -78,12 +98,6 @@ primaryPages = {
     type: "programming",
     rank: 1,
   },
-
-
-}
-
-secondaryPages = {
-
   
   prototype: {
     name: "The Prototype",
@@ -99,18 +113,6 @@ secondaryPages = {
   },
 
 
-  baking: {
-    name: "Gode Messes",
-    author: "Samuel Pegge",
-    company: null,
-    field: "Baking",
-    year: 2022,
-    text: "Ich haue stodied for to make þese messes from þe boke The Forme of Cury (c. 1390)",
-    link: "./pages/baking/baking.html",
-    image: "./index_images/pie.jpg",
-    type: "miscellaneous",
-    rank: 2,
-  },
 
   kanjipair: {
     name: "Kanji Pairing Game",
@@ -124,6 +126,19 @@ secondaryPages = {
     type: "programming",
   },
 
+
+  baking: {
+    name: "Gode Messes",
+    author: "Samuel Pegge",
+    company: null,
+    field: "Baking",
+    year: 2022,
+    text: "Ich haue stodied for to make þese messes from þe boke The Forme of Cury (c. 1390)",
+    link: "./pages/baking/baking.html",
+    image: "./index_images/pie.jpg",
+    type: "miscellaneous",
+    rank: 2,
+  },
 
 
   // flowers: {
@@ -253,19 +268,6 @@ tertiaryPages = {
   //   type: "photography",
   // },
 
-  mathConverter: {
-    name: "English → Symbolic",
-    author: null,
-    company: null,
-    field: "Webapp",
-    year: 2022,
-    text: "LaTeX-free logic conversion e.g. [all var in dd goe pi] → [∀𝑥 ∈ 𝔻 ≥ π ]",
-    link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
-    image: "./index_images/symbolic.jpg",
-    type: "programming",
-    rank: 3,
-  },
-
   singlesurface: {
     name: "Single Surface",
     author: "Eugenie Shinkle, Koji Kitagawa & Eva Louisa Jonas",
@@ -363,6 +365,19 @@ tertiaryPages = {
 // These pages appear at the very end of the page
 endPages = {
 
+  mathConverter: {
+    name: "English → Symbolic",
+    author: null,
+    company: null,
+    field: "Webapp",
+    year: 2022,
+    text: "LaTeX-free logic conversion e.g. [all var in dd goe pi] → [∀𝑥 ∈ 𝔻 ≥ π ]",
+    link: "https://callumbeaney.github.io/Symbolic-Notation-Converter/",
+    image: "./index_images/symbolic.jpg",
+    type: "programming",
+    rank: 4,
+  },
+
   regex: {
     name: "RegEx or Obfuscation?",
     author: null,
@@ -389,31 +404,31 @@ endPages = {
     rank: 5,
   },
 
-  // lake: {
-  //   name: "'The Prototype' at Lake",
-  //   author: "Eugenie Shinkle",
-  //   company: "Folium",
-  //   field: "Exhibition",
-  //   year: 2023,
-  //   text: "A team-built picture/noise installation",
-  //   link: "./pages/lake/lake.html",
-  //   image: "./index_images/lake.jpg",
-  //   type: "photography",
-  //   rank: 5,
-  // },
+  lake: {
+    name: "'The Prototype' at Lake",
+    author: "Eugenie Shinkle",
+    company: "Folium",
+    field: "Exhibition",
+    year: 2023,
+    text: "A team-built picture/noise installation",
+    link: "./pages/lake/lake.html",
+    image: "./index_images/lake.jpg",
+    type: "photography",
+    rank: 5,
+  },
 
-  // smilesgermany: {
-  //   name: "Billboard",
-  //   author: null,
-  //   company: "Studio Othertypes",
-  //   field: "Exhibition",
-  //   year: 2020,
-  //   text: "Advertisements reworked into a poster, put up in Germany",
-  //   link: "./pages/smilesgermany/smilesgermany.html",
-  //   image: "./index_images/smilesgermany.jpg",
-  //   type: "programming",
-  //   rank: 5,
-  // },
+  smilesgermany: {
+    name: "Billboard",
+    author: null,
+    company: "Studio Othertypes",
+    field: "Exhibition",
+    year: 2020,
+    text: "Advertisements reworked into a poster, put up in Germany",
+    link: "./pages/smilesgermany/smilesgermany.html",
+    image: "./index_images/smilesgermany.jpg",
+    type: "programming",
+    rank: 5,
+  },
 
   matca: {
     name: "Conversations Around Photography, Vietnam & UK",
@@ -439,32 +454,6 @@ endPages = {
   //   image: "./index_images/pink.jpg",
   //   type: "photography",
   //   rank: 3,
-  // },
-
-
-
-  // tree: {
-  //   name: "<moji style='font-size:0.95rem;'>Merry Codemas</moji>",
-  //   author: null,
-  //   company: null,
-  //   field: "Obfuscated Terminal Art",
-  //   year: 2023,
-  //   text: "<moji style='font-size:0.85rem;'> for(;;)<%int *＊=&／;int*ª=&／;long Var=*＊;*＊=*ª;*ª=Var*／/var%／;%></moji>",
-  //   link: "https://www.youtube.com/watch?v=K3nnHeOknUk",
-  //   image: "./index_images/tree.jpg",
-  //   type: "programming",
-  // },
-
-  // rgbbmp: {
-  //   name: "RGB BMP Converter",
-  //   author: null,
-  //   company: null,
-  //   field: "Software",
-  //   year: 2021,
-  //   text: "Simple colourisation CLI tool written in C",
-  //   link: "https://github.com/CallumBeaney/BMP-RGB-filter",
-  //   image: "./index_images/bmp.jpg",
-  //   type: "programming",
   // },
 
   // dcu: {
