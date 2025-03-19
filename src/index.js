@@ -20,7 +20,7 @@ primaryPages = {
     company: "Good Pals",
     field: "Software/Cultural Heritage",
     year: 2024,
-    text: "a browser extension to assist in reading middle english web pages.",
+    text: "A browser extension prototype to assist in reading middle english web pages.",
     link: "https://github.com/goodpals/Middle-English-Mouse-Dictionary",
     image: "./index_images/middle.jpg",
     type: "programming",
@@ -66,7 +66,6 @@ primaryPages = {
     rank: 1,
   },
 
-
   recentLandscapes: {
     name: "Recent Scanned Negatives",
     author: null,
@@ -80,11 +79,22 @@ primaryPages = {
     rank: 3,
   },
 
-
 }
 
 secondaryPages = {
 
+  tunnel: {
+    name: "Tunnel Book Viewer",
+    author: 'Printer Scanner',
+    company: null,
+    field: "Software/Cultural Heritage",
+    year: 2025,
+    text: "A JS prototype for viewing historical paper tunnel books in the digital age.",
+    link: "https://callumbeaney.github.io/tunnel-book-prototype/",
+    image: "./index_images/tunnel.jpg",
+    type: "programming",
+    rank: 1,
+  },
 
   christmasCard: {
     name: "Code Christmas Card",
@@ -111,8 +121,6 @@ secondaryPages = {
     type: "photography",
     rank: 2,
   },
-
-
 
   kanjipair: {
     name: "Kanji Pairing Game",
