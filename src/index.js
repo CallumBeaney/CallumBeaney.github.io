@@ -163,7 +163,7 @@ secondaryPages = {
   // },
 
   sucker: {
-    name: "<moji class='bold'>Sucker</moji>",
+    name: "<moji class='bold'>Smiles</moji>",
     author: null,
     company: null,
     field: "Photography",
@@ -448,6 +448,19 @@ endPages = {
     link: "https://c4journal.com/matca-c4journal/",
     image: "./index_images/matca.jpg",
     type: "writing",
+    rank: 5,
+  },
+
+  holbein: {
+    name: "Ambassadors Anamorphosis",
+    author: null,
+    company: null,
+    field: "Image stuff",
+    year: 2025,
+    text: "A little site (best for desktop/laptop) for viewing Hans Holbein's 'The Ambassadors' in 3D",
+    link: "https://callumbeaney.github.io/holbein/",
+    image: "./index_images/skull.jpg",
+    type: "software",
     rank: 5,
   },
 
