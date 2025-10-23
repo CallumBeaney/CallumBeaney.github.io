@@ -365,18 +365,18 @@ tertiaryPages = {
     rank: 2,
   },
   
-  tube: {
-    name: "Homage To The Tube",
-    author: null,
-    company: null,
-    field: "Music",
-    year: "2013",
-    text: "I had a few hours in a studio with 5 or 6 guitars and a load of amps.",
-    link: "https://burdendrone.bandcamp.com/album/homage-to-the-tube-2",
-    image: "./index_images/tube.jpg",
-    type: "music",
-    rank: 5,
-  },
+  // tube: {
+  //   name: "Homage To The Tube",
+  //   author: null,
+  //   company: null,
+  //   field: "Music",
+  //   year: "2013",
+  //   text: "I had a few hours in a studio with 5 or 6 guitars and a load of amps.",
+  //   link: "https://burdendrone.bandcamp.com/album/homage-to-the-tube-2",
+  //   image: "./index_images/tube.jpg",
+  //   type: "music",
+  //   rank: 5,
+  // },
   
 }
 
@@ -513,17 +513,17 @@ endPages = {
     rank: 5,
   },
 
-  dbtso: {
-    name: "Drone-Based Textural Studies One",
-    author: null,
-    company: null,
-    field: "Noise",
-    year: "2012",
-    text: "A borderline unlistenable set of sine wave/microsound experimentations I did in a DAW back when I was just so cool.",
-    link: "https://burdendrone.bandcamp.com/album/drone-based-textural-studies-one",
-    image: "./index_images/dbtso.jpg",
-    type: "music",
-    rank: 5,
-  },
+  // dbtso: {
+  //   name: "Drone-Based Textural Studies One",
+  //   author: null,
+  //   company: null,
+  //   field: "Noise",
+  //   year: "2012",
+  //   text: "A borderline unlistenable set of sine wave/microsound experimentations I did in a DAW back when I was just so cool.",
+  //   link: "https://burdendrone.bandcamp.com/album/drone-based-textural-studies-one",
+  //   image: "./index_images/dbtso.jpg",
+  //   type: "music",
+  //   rank: 5,
+  // },
   
 }
