@@ -20,7 +20,7 @@ primaryPages = {
     company: null,
     field: "Photography",
     year: "2025",
-    text: "I wanted to multiply a thin strip of sunlight filtering through the treesr",
+    text: "I wanted to multiply a thin strip of sunlight filtering through the trees",
     link: "./pages/sunspots/sunspots.html",
     image: "./index_images/sunspots.jpg",
     type: "photography",
