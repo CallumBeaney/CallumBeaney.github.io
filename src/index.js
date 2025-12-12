@@ -14,6 +14,19 @@ primaryPages = {
     rank: 1,
   },
 
+  sunSpots: {
+    name: "Courtyard",
+    author: null,
+    company: null,
+    field: "Photography",
+    year: "2025",
+    text: "I wanted to multiply a thin strip of sunlight filtering through the treesr",
+    link: "./pages/sunspots/sunspots.html",
+    image: "./index_images/sunspots.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   middle: {
     name: "Middle English Mouse Dictionary",
     author: "Alex Baker",
@@ -52,7 +65,7 @@ primaryPages = {
     type: "programming",
     rank: 1,
   },
-  
+
   c4: {
     name: "C4 Journal",
     author: "Eugenie Shinkle",
@@ -108,7 +121,7 @@ secondaryPages = {
     type: "programming",
     rank: 1,
   },
-  
+
   prototype: {
     name: "The Prototype",
     author: "Eugenie Shinkle",
@@ -172,7 +185,7 @@ secondaryPages = {
     type: "photography",
     rank: 2,
   },
-  
+
 
   // hanzipair: {
   //   name: "Hanzi Pairing Game",
@@ -186,7 +199,7 @@ secondaryPages = {
   //   type: "programming",
   //   rank: 2,
   // }, 
-  
+
 
   tsib: {
     name: "The Space In Between",
@@ -261,7 +274,7 @@ tertiaryPages = {
   //   image: "./index_images/rfid.jpg",
   //   type: "programming",
   // },
-  
+
   // aiai: {
   //   name: "<moji class='bold'>爱愛</moji>",
   //   author: null,
@@ -338,7 +351,7 @@ tertiaryPages = {
     type: "photography",
     rank: 2,
   },
-  
+
   injection: {
     name: "Translation of Sakunosuke Oda's 'Injection'",
     author: null,
@@ -364,7 +377,7 @@ tertiaryPages = {
     type: "photography",
     rank: 2,
   },
-  
+
   // tube: {
   //   name: "Homage To The Tube",
   //   author: null,
@@ -377,7 +390,7 @@ tertiaryPages = {
   //   type: "music",
   //   rank: 5,
   // },
-  
+
 }
 
 // These pages appear at the very end of the page
@@ -499,7 +512,7 @@ endPages = {
   //   type: "photography",
   //   rank: 3,
   // },
-  
+
   drone: {
     name: "Drone Music Fan Club",
     author: null,
@@ -525,5 +538,5 @@ endPages = {
   //   type: "music",
   //   rank: 5,
   // },
-  
+
 }

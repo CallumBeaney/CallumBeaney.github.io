@@ -1,0 +1,59 @@
+/* Sunspots page specific styles */
+
+body {
+	background-color: black;
+	filter: invert(1);
+}
+
+#shuffledGrid {
+	filter: invert(1);
+}
+
+.grid-layout.eight-across {
+	grid-template-columns: repeat(12, 1fr) !important;
+	gap: 0;
+	grid-auto-rows: auto;
+}
+
+.grid-item.no-padding-no-border {
+	padding: 0;
+	border: none;
+	line-height: 0;
+}
+
+.grid-item.no-padding-no-border img {
+	display: block;
+	margin: 0;
+}
+
+@media screen and (max-width: 810px) and (min-width: 700px) {
+	.grid-layout.eight-across {
+		grid-template-columns: repeat(10, 1fr) !important;
+	}
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px) {
+	.grid-layout.eight-across {
+		grid-template-columns: repeat(8, 1fr) !important;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.grid-layout.eight-across {
+		grid-template-columns: repeat(6, 1fr) !important;
+	}
+
+	.grid-item.no-padding-no-border {
+		grid-column-end: span 1;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.grid-layout.eight-across {
+		grid-template-columns: repeat(4, 1fr) !important;
+	}
+
+	.grid-item.no-padding-no-border {
+		grid-column-end: span 1;
+	}
+}
