@@ -249,18 +249,18 @@ tertiaryPages = {
   },
 
 
-  lucky: {
-    name: "Lucky",
-    author: null,
-    company: null,
-    field: "short story",
-    year: 2021,
-    text: "A short story I wrote about a cat",
-    link: "./pages/lucky/lucky.html",
-    image: "./index_images/lucky.jpg",
-    type: "Writing",
-    rank: 3,
-  },
+  // lucky: {
+  //   name: "Lucky",
+  //   author: null,
+  //   company: null,
+  //   field: "short story",
+  //   year: 2021,
+  //   text: "A short story I wrote about a cat",
+  //   link: "./pages/lucky/lucky.html",
+  //   image: "./index_images/lucky.jpg",
+  //   type: "Writing",
+  //   rank: 3,
+  // },
 
 
   // chess: {
