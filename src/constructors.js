@@ -26,6 +26,14 @@ function constructShuffledGrid(folderpath, dirlen, containerId) {
   document.getElementById(containerId).innerHTML = builder;
 }
 
+function constructGrid(folderpath, dirlen, containerId) {
+  let builder = "";
+  for (let i = 0; i < dirlen; i++) {
+    builder += '<div class="grid-item no-padding-no-border"><img src="' + folderpath + i + '.jpg' + '"></img></div>';
+  }
+  document.getElementById(containerId).innerHTML = builder;
+}
+
 function colourlinks(id, link) {
   const colors = ['crimson', 'forestgreen', 'sienna', 'royalblue', 'darkorchid', 'darkorange', 'orchid', 'firebrick'];
 
