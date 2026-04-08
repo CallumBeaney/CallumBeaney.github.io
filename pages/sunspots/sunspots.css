@@ -9,12 +9,15 @@ body {
 	filter: invert(1);
 }
 
-#sungrid {
+#sungrid,
+#lvgrid {
 	filter: invert(1);
 }
 
 @media only screen and (min-width: 769px) {
-	#sungrid {
+
+	#sungrid,
+	#lvgrid {
 		width: 65%;
 		max-width: 65vw;
 		margin: auto;
@@ -31,17 +34,22 @@ body {
 
 /* Mobile: global style.css sets .grid-item { grid-column-end: span 10 } — reset for mosaic */
 @media only screen and (max-width: 599px) {
-	#sungrid.sungrid--mosaic .grid-item.no-padding-no-border {
+
+	#sungrid.sungrid--mosaic .grid-item.no-padding-no-border,
+	#lvgrid.sungrid--mosaic .grid-item.no-padding-no-border {
 		grid-column: auto / span 1;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	#sungrid.sungrid--column.grid-layout.eight-across {
+
+	#sungrid.sungrid--column.grid-layout.eight-across,
+	#lvgrid.sungrid--column.grid-layout.eight-across {
 		grid-template-columns: 1fr !important;
 	}
 
-	#sungrid.sungrid--column .grid-item.no-padding-no-border {
+	#sungrid.sungrid--column .grid-item.no-padding-no-border,
+	#lvgrid.sungrid--column .grid-item.no-padding-no-border {
 		grid-column: auto / span 1;
 	}
 }

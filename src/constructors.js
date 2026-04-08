@@ -26,10 +26,11 @@ function constructShuffledGrid(folderpath, dirlen, containerId) {
   document.getElementById(containerId).innerHTML = builder;
 }
 
-function constructGrid(folderpath, dirlen, containerId) {
+function constructGrid(folderpath, dirlen, containerId, ext) {
+  var extn = ext !== undefined && ext !== null ? ext : ".jpg";
   let builder = "";
   for (let i = 0; i < dirlen; i++) {
-    builder += '<div class="grid-item no-padding-no-border"><img src="' + folderpath + i + '.jpg' + '"></img></div>';
+    builder += '<div class="grid-item no-padding-no-border"><img src="' + folderpath + i + extn + '"></img></div>';
   }
   document.getElementById(containerId).innerHTML = builder;
 }

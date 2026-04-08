@@ -33,6 +33,7 @@
     <!-- <div class="grid-layout two-across" id="indexGrid"></div> -->
 
     <div class="grid-layout eight-across sungrid--mosaic" id="sungrid"></div>
+    <div class="grid-layout eight-across sungrid--mosaic" id="lvgrid"></div>
 
     <!-- FOOTER -->
     <div class="grid-layout condensed-grid">
@@ -53,23 +54,29 @@
 
   <script src="../../src/constructors.js"></script>
   <script>
-    constructGrid("./img/sunspots_", 81, "sungrid");
+    constructGrid("./sun/sunspots_", 81, "sungrid");
+    constructGrid("./lv/lv_", 81, "lvgrid", ".JPG");
     (function () {
-      var grid = document.getElementById("sungrid");
+      var grids = ["sungrid", "lvgrid"].map(function (id) {
+        return document.getElementById(id);
+      }).filter(Boolean);
       var btn = document.getElementById("sungrid-layout-toggle");
-      if (!grid || !btn) return;
+      if (!grids.length || !btn) return;
       var KEY = "sunspotsLayoutMode";
       function apply(mode) {
         var column = mode === "column";
-        grid.classList.toggle("sungrid--mosaic", !column);
-        grid.classList.toggle("sungrid--column", column);
+        grids.forEach(function (grid) {
+          grid.classList.toggle("sungrid--mosaic", !column);
+          grid.classList.toggle("sungrid--column", column);
+        });
         btn.setAttribute("aria-pressed", column ? "true" : "false");
         btn.setAttribute("aria-label", column ? "Show 9-column grid" : "Show single column");
         btn.textContent = column ? "▦" : "☷";
         try { sessionStorage.setItem(KEY, mode); } catch (e) { }
       }
       btn.addEventListener("click", function () {
-        apply(grid.classList.contains("sungrid--column") ? "mosaic" : "column");
+        var g0 = grids[0];
+        apply(g0 && g0.classList.contains("sungrid--column") ? "mosaic" : "column");
       });
       var saved = null;
       try { saved = sessionStorage.getItem(KEY); } catch (e) { }
