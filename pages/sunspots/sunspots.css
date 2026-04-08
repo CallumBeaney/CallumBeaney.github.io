@@ -2,6 +2,10 @@
 
 body {
 	background-color: black;
+}
+
+/* Invert lives here so fixed UI (layout toggle) is not inside a filtered ancestor — filter breaks viewport-fixed + hover. */
+.sunspots-invert {
 	filter: invert(1);
 }
 
@@ -25,45 +29,83 @@ body {
 	grid-auto-rows: auto;
 }
 
+/* Mobile: global style.css sets .grid-item { grid-column-end: span 10 } — reset for mosaic */
+@media only screen and (max-width: 599px) {
+	#sungrid.sungrid--mosaic .grid-item.no-padding-no-border {
+		grid-column: auto / span 1;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#sungrid.sungrid--column.grid-layout.eight-across {
+		grid-template-columns: 1fr !important;
+	}
+
+	#sungrid.sungrid--column .grid-item.no-padding-no-border {
+		grid-column: auto / span 1;
+	}
+}
+
 .grid-item.no-padding-no-border {
 	padding: 0;
 	border: none;
 	line-height: 0;
+	min-width: 0;
 }
 
 .grid-item.no-padding-no-border img {
 	display: block;
 	margin: 0;
+	width: 100%;
+	height: auto;
 }
 
-@media screen and (max-width: 810px) and (min-width: 700px) {
-	.grid-layout.eight-across {
-		grid-template-columns: repeat(9, 1fr) !important;
-	}
+.sungrid-layout-toggle {
+	display: none;
 }
 
-@media screen and (max-width: 699px) and (min-width: 600px) {
-	.grid-layout.eight-across {
-		grid-template-columns: repeat(9, 1fr) !important;
+@media only screen and (max-width: 768px) {
+	.sungrid-layout-toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		right: max(1rem, env(safe-area-inset-right, 0px));
+		bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+		left: auto;
+		top: auto;
+		z-index: 99999;
+		width: 2.75rem;
+		height: 2.75rem;
+		margin: 0;
+		padding: 0;
+		border: 1px solid #333;
+		border-radius: 2px;
+		background: #fff;
+		color: #000;
+		font-size: 1.25rem;
+		line-height: 1;
+		cursor: pointer;
+		touch-action: manipulation;
+		-webkit-tap-highlight-color: transparent;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 	}
-}
 
-@media only screen and (max-width: 599px) {
-	.grid-layout.eight-across {
-		grid-template-columns: repeat(6, 1fr) !important;
+	@media (hover: hover) {
+		.sungrid-layout-toggle:hover {
+			background: #f0f0f0;
+			border-color: #111;
+			box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+		}
 	}
 
-	.grid-item.no-padding-no-border {
-		grid-column-end: span 1;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	.grid-layout.eight-across {
-		grid-template-columns: repeat(4, 1fr) !important;
+	.sungrid-layout-toggle:active {
+		background: #e0e0e0;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 	}
 
-	.grid-item.no-padding-no-border {
-		grid-column-end: span 1;
+	.sungrid-layout-toggle:focus-visible {
+		outline: 2px solid #0066cc;
+		outline-offset: 2px;
 	}
 }

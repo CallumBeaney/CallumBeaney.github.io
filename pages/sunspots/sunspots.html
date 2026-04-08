@@ -10,45 +10,72 @@
   <title>callum beaney</title>
 </head>
 
-<a id="top"></a>
-
 <body>
-  <!-- HEADER -->
+  <a id="top"></a>
+  <div class="sunspots-invert">
+    <!-- HEADER -->
 
-  <div class="grid-layout condensed-grid">
-    <div class="grid-item span-2"><a href="../../index.html">
-        <h1 class="logo">Callum Beaney</h1>
-      </a></div>
-    <div class="grid-item span-2">
-      <title class="large" style="font-family: sans-serif; font-weight:normal;">Courtyard</title>
+    <div class="grid-layout condensed-grid">
+      <div class="grid-item span-2"><a href="../../index.html">
+          <h1 class="logo">Callum Beaney</h1>
+        </a></div>
+      <div class="grid-item span-2">
+        <title class="large" style="font-family: sans-serif; font-weight:normal;">Courtyard</title>
+      </div>
+      <a href="../about/about.html" class="grid-item grid-item--link">
+        <p>ABOUTME</p>
+        <p>私について</p>
+        <p>關於我頁面</p>
+      </a>
     </div>
-    <a href="../about/about.html" class="grid-item grid-item--link">
-      <p>ABOUTME</p>
-      <p>私について</p>
-      <p>關於我頁面</p>
-    </a>
+
+    <!-- <div class="grid-layout three-across" id="indexGrid"></div> -->
+    <!-- <div class="grid-layout two-across" id="indexGrid"></div> -->
+
+    <div class="grid-layout eight-across sungrid--mosaic" id="sungrid"></div>
+
+    <!-- FOOTER -->
+    <div class="grid-layout condensed-grid">
+      <div class="grid-item span-1" style="font-size: small;">This website's design adapted with permission from <a
+          href="https://abbeyyacoe.info" style="color:firebrick;">Abbey Yacoe</a>'s website <a
+          href="https://printerscanner.net" style="color: royalblue;">printer_scanner</a>.</div>
+      <div class="grid-item span-3"></div>
+      <a href="#top" class="grid-item grid-item--link">
+        <h4>↑</h4>
+      </a>
+    </div>
+
+    <br><br>
   </div>
 
-  <!-- <div class="grid-layout three-across" id="indexGrid"></div> -->
-  <!-- <div class="grid-layout two-across" id="indexGrid"></div> -->
+  <button type="button" id="sungrid-layout-toggle" class="sungrid-layout-toggle" aria-pressed="false"
+    aria-label="Show single column" title="Switch between grid and single column">☷</button>
 
-  <div class="grid-layout eight-across" id="sungrid"></div>
-
-  <!-- FOOTER -->
-  <div class="grid-layout condensed-grid">
-    <div class="grid-item span-1" style="font-size: small;">This website's design adapted with permission from <a
-        href="https://abbeyyacoe.info" style="color:firebrick;">Abbey Yacoe</a>'s website <a
-        href="https://printerscanner.net" style="color: royalblue;">printer_scanner</a>.</div>
-    <div class="grid-item span-3"></div>
-    <a href="#top" class="grid-item grid-item--link">
-      <h4>↑</h4>
-    </a>
-  </div>
-
-  <br><br>
+  <script src="../../src/constructors.js"></script>
+  <script>
+    constructGrid("./img/sunspots_", 81, "sungrid");
+    (function () {
+      var grid = document.getElementById("sungrid");
+      var btn = document.getElementById("sungrid-layout-toggle");
+      if (!grid || !btn) return;
+      var KEY = "sunspotsLayoutMode";
+      function apply(mode) {
+        var column = mode === "column";
+        grid.classList.toggle("sungrid--mosaic", !column);
+        grid.classList.toggle("sungrid--column", column);
+        btn.setAttribute("aria-pressed", column ? "true" : "false");
+        btn.setAttribute("aria-label", column ? "Show 9-column grid" : "Show single column");
+        btn.textContent = column ? "▦" : "☷";
+        try { sessionStorage.setItem(KEY, mode); } catch (e) { }
+      }
+      btn.addEventListener("click", function () {
+        apply(grid.classList.contains("sungrid--column") ? "mosaic" : "column");
+      });
+      var saved = null;
+      try { saved = sessionStorage.getItem(KEY); } catch (e) { }
+      apply(saved === "column" ? "column" : "mosaic");
+    })();
+  </script>
 </body>
-
-<script src="../../src/constructors.js"></script>
-<script>constructGrid("./img/sunspots_", 81, "sungrid");</script>
 
 </html>
