@@ -1,11 +1,12 @@
 
 
-function constructimages(folderpath, dirlen) {
+function constructimages(folderpath, dirlen, ext) {
   // this is easily the laziest I've ever been
 
+  var extn = ext !== undefined && ext !== null ? ext : ".jpg";
   let builder = "";
   for (index = 0; index < dirlen; index++) {
-    builder += '<div class="grid-item"><img src="' + folderpath + index + '.jpg' + '"></img></div>';
+    builder += '<div class="grid-item"><img src="' + folderpath + index + extn + '"></img></div>';
   }
   document.getElementById("indexGrid").insertAdjacentHTML("beforeend", builder);
 }
