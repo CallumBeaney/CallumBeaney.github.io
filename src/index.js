@@ -93,7 +93,7 @@ primaryPages = {
   },
 
   flowerShow: {
-    name: "<moji class='bold'>kindness prevails</moji>",
+    name: "<moji class='bold'>everyone's buying eachother flowers</moji>",
     author: null,
     company: null,
     field: "Photography",
