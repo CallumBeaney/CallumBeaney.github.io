@@ -93,17 +93,16 @@ primaryPages = {
   },
 
   // flowerShow: {
-  //    name: "<moji class='bold'>everyone's buying eachother flowers</moji>",
-  //  author: null,
+  //   author: null,
   //   company: null,
-  //    field: "Photography",
-  //    year: 2026,
-  //    text: "work in progress",
-  //    link: "./pages/flower_show/flrsho.html",
-  //    image: "./index_images/flowerShow.jpg",
-  //    type: "photography",
-  //    rank: 1
-  //  },
+  //   field: "Photography",
+  //   year: 2026,
+  //   text: "work in progress",
+  //   link: "./pages/flower_show/flrsho.html",
+  //   image: "./index_images/flowerShow.jpg",
+  //   type: "photography",
+  //   rank: 1
+  // },
 
 }
 
