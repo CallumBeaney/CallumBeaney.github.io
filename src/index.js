@@ -1,6 +1,19 @@
 // These pages appear at the very top of the page
 primaryPages = {
 
+  guiyang: {
+    name: "<moji class='bold'>貴陽你好</moji>",
+    author: null,
+    company: null,
+    field: "Photobook",
+    year: 2026,
+    text: "A trip to the potato-loving city shot on a keyring camera",
+    link: "./pages/guiyang/guiyang.html",
+    image: "./index_images/guiyang.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   siteSpecific: {
     name: "Site Specific: Photography Exhibitions From Around the World",
     author: "Matt Dunne",
@@ -93,6 +106,7 @@ primaryPages = {
   },
 
   // flowerShow: {
+  //   name: "<moji class='bold'>everyone's buying eachother flowers</moji>",
   //   author: null,
   //   company: null,
   //   field: "Photography",
