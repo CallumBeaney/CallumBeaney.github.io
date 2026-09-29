@@ -246,6 +246,19 @@ secondaryPages = {
 
 tertiaryPages = {
 
+  siteSpecificVol2: {
+    name: "Site Specific Vol. 2",
+    author: "Matt Dunne",
+    company: "Tall Poppy Press",
+    field: "Book",
+    year: 2026,
+    text: "Matt & I teamed up again to make a followup to our first book, showing more photo exhibitions around the world",
+    link: "https://www.tallpoppypress.xyz/product/2026-09-book-ss2",
+    image: "./index_images/sitespecific2.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   people: {
     name: "people",
     author: null,
@@ -506,7 +519,7 @@ endPages = {
     company: null,
     field: "Image stuff",
     year: 2025,
-    text: "A little site (best for desktop/laptop) for viewing Hans Holbein's 'The Ambassadors' in 3D",
+    text: "A little site (for desktop/laptop) for viewing Hans Holbein's 'The Ambassadors' in 3D",
     link: "https://callumbeaney.github.io/holbein/",
     image: "./index_images/skull.jpg",
     type: "software",
