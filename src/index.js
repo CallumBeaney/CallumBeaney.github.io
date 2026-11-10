@@ -105,6 +105,17 @@ primaryPages = {
     rank: 3,
   },
 
+  hanziFudger: {
+    name: "Hanzi Fudger <moji class='bold'>(同音乱码)</moji>",
+    author: null,
+    company: null,
+    field: "Software",
+    year: 2026,
+    text: "Takes a Chinese sentence and converts its characters into their homophones e.g. <moji>下周会很冷 ➝  嚇洲惠狠冷</moji>",
+    link: "https://hanzi-fudger.web.app/",
+    image: "./index_images/hanziFudger.png",
+  },
+
   // flowerShow: {
   //   name: "<moji class='bold'>everyone's buying eachother flowers</moji>",
   //   author: null,
