@@ -17,7 +17,9 @@ function populateIndex(indexReference)
 
   for ([entry, info] of Object.entries(indexReference)) 
   {
-    const link    = '<a class="grid-item ' + info.type + '" href=' + info.link + ' ">';
+    const isExternal = /^https?:\/\//i.test(info.link);
+    const targetAttr = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const link    = '<a class="grid-item ' + info.type + '" href="' + info.link + '"' + targetAttr + '>';
     const image   = (info.image != null) ? '<img src="' + info.image + '"></img>' : "";
     const title   = '<div><p><b>' + info.name + '</b>  ';
     const crumbs  = '<i>' + info.year + '・' + info. field + '<br></i>';      
