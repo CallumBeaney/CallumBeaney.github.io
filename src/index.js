@@ -256,20 +256,6 @@ secondaryPages = {
 
 
 tertiaryPages = {
-
-  siteSpecificVol2: {
-    name: "Site Specific Vol. 2",
-    author: "Matt Dunne",
-    company: "Tall Poppy Press",
-    field: "Book",
-    year: 2026,
-    text: "Matt & I teamed up again to make a followup to our first book, showing more photo exhibitions around the world",
-    link: "https://www.tallpoppypress.xyz/product/2026-09-book-ss2",
-    image: "./index_images/sitespecific2.jpg",
-    type: "photography",
-    rank: 1,
-  },
-
   people: {
     name: "people",
     author: null,
@@ -465,7 +451,7 @@ endPages = {
     company: null,
     field: "webgame",
     year: 2023,
-    text: "Just a dumb meme tbh",
+    text: "Just riffing on regex illegibility",
     link: "https://regex-or-obfuscation.web.app/#/",
     image: "./index_images/regex.jpg",
     type: "programming",
@@ -576,6 +562,19 @@ endPages = {
     rank: 5,
   },
 
+  siteSpecificVol2: {
+    name: "Site Specific Vol. 2",
+    author: "Matt Dunne",
+    company: "Tall Poppy Press",
+    field: "Book",
+    year: 2026,
+    text: "Matt & I teamed up again to make a followup to our first book",
+    link: "https://www.tallpoppypress.xyz/product/2026-09-book-ss2",
+    image: "./index_images/sitespecific2.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   // dbtso: {
   //   name: "Drone-Based Textural Studies One",
   //   author: null,
@@ -588,5 +587,22 @@ endPages = {
   //   type: "music",
   //   rank: 5,
   // },
+
+}
+
+finalPages = {
+
+  japaneseLandscape: {
+    name: "Japanese/English Landscape Poster",
+    author: null,
+    company: null,
+    field: "Study resource",
+    year: 2019,
+    text: "Literally just a language study poster",
+    link: "./pages/japaneseLandscape/japaneseLandscape.html",
+    image: "./index_images/japaneseLandscape.jpg",
+    type: "miscellaneous",
+    rank: 5,
+  },
 
 }

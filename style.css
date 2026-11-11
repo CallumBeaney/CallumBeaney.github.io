@@ -144,6 +144,17 @@ article {
 	word-wrap: break-word;
 }
 
+.grid-item .external-note {
+	position: absolute;
+	right: 0.45rem;
+	bottom: 0.4rem;
+	font-size: 0.95rem;
+	line-height: 1;
+	opacity: 0.7;
+	pointer-events: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .grid-item p.abouttext {
 	/* border-bottom: 1px solid; */
 	font-size: large;
@@ -211,6 +222,11 @@ article {
 	justify-content: left;
 	flex-direction: column;
 
+}
+
+.condensed-grid a.grid-item--link[href="#top"] {
+	align-items: center;
+	text-align: center;
 }
 
 .grid-item--link p {

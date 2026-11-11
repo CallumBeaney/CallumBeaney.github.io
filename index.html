@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="/favicon.png" />
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>callum beaney</title>
-  </head>
 
-  <a id="top"></a>
-  <body>
-    <!-- HEADER -->
-    <div class="grid-layout condensed-grid">
-      
-      <div class="grid-item span-2"><a href="./pages/about/about.html"><h1 class="logo">Callum Beaney</h1></a></div>
-      
-      <div class="grid-item" style="display: flex; align-items: center;">
-        <!-- <title class="small" style="font-family: Arial, Helvetica, sans-serif;">✵</title> -->
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>callum beaney</title>
+</head>
 
-      <a href="https://callumbeaney.github.io/blogge/" class="grid-item grid-item--link"><p>BLOG</p><p>ブログ</p><p>读博客</p></a>
-      <a href="./pages/about/about.html" class="grid-item grid-item--link"><p>ABOUTME</p><p>私について</p><p>關於我頁面</p></a>
+<a id="top"></a>
+
+<body>
+  <!-- HEADER -->
+  <div class="grid-layout condensed-grid">
+
+    <div class="grid-item span-2"><a href="./pages/about/about.html">
+        <h1 class="logo">Callum Beaney</h1>
+      </a></div>
+
+    <div class="grid-item" style="display: flex; align-items: center;">
+      <!-- <title class="small" style="font-family: Arial, Helvetica, sans-serif;">✵</title> -->
     </div>
-  
-    <noscript>
-      <div class="grid-layout one-across" id="indexGrid" style="border-bottom: none;">
-        <div class="grid-item span-3">
-          <p style="font-size: large; font-family: sans-serif;">
-            Hey! It looks like you've got Javascript disabled. You can't view this site without that :(<br><br>
-            you can, however, view my ABOUT ME up in the top bar without needing JS.<br>
-          </p>
-          <pre>
+
+    <a href="https://callumbeaney.github.io/blogge/" class="grid-item grid-item--link">
+      <p>BLOG</p>
+      <p>ブログ</p>
+      <p>读博客</p>
+    </a>
+    <a href="./pages/about/about.html" class="grid-item grid-item--link">
+      <p>ABOUTME</p>
+      <p>私について</p>
+      <p>關於我頁面</p>
+    </a>
+  </div>
+
+  <noscript>
+    <div class="grid-layout one-across" id="indexGrid" style="border-bottom: none;">
+      <div class="grid-item span-3">
+        <p style="font-size: large; font-family: sans-serif;">
+          Hey! It looks like you've got Javascript disabled. You can't view this site without that :(<br><br>
+          you can, however, view my ABOUT ME up in the top bar without needing JS.<br>
+        </p>
+        <pre>
       _                        
       \`*-.                    
         )  _`-.                 
@@ -47,28 +59,44 @@
 [<a style="color:green;" href="https://www.asciiart.eu/animals/cats">bug</a>] .*' /  .*' ; .*`- +'  `*' 
       `*-*   `*-*  `*-*'
           </pre>
-        </div>
-      </div>  
-    </noscript>
-
-    <!-- CONTENT -->
-    <div class="grid-layout" id="indexGrid" style="border-bottom: none;">
-          <!-- INDEX LOADING SCRIPT INSERTS HERE -->
-          
+      </div>
     </div>
+  </noscript>
 
-    <!-- FOOTER -->
+  <!-- CONTENT -->
+  <div class="grid-layout" id="indexGrid" style="border-bottom: none;">
+    <!-- INDEX LOADING SCRIPT INSERTS HERE -->
 
-    <div class="grid-layout condensed-grid">
-      <div class="grid-item span-1" style="font-size: small;">This website's design adapted with permission from <a href="https://abbeyyacoe.info" style="color:firebrick;">Abbey Yacoe</a>'s website <a href="https://printerscanner.net" style="color: royalblue;">printer_scanner</a>.</div>
-      <div class="grid-item span-3"></div>
-      <a href="#top" class="grid-item grid-item--link"><h4>↑</h4></a>
-    </div>
-    
-    <br>
-  </body>
+  </div>
 
-  <script src="./src/index.js"></script>
-  <script src="./src/makeindex.js"></script>
+  <!-- FOOTER -->
 
- </html>
+  <div class="grid-layout condensed-grid">
+    <div class="grid-item span-1" id="lastUpdated" style="font-size: small;"></div>
+    <div class="grid-item span-3"></div>
+    <a href="#top" class="grid-item grid-item--link">
+      <h4>↑</h4>
+    </a>
+  </div>
+
+  <br>
+</body>
+
+<script src="./src/index.js"></script>
+<script src="./src/makeindex.js"></script>
+<script>
+  console.log('what are you doing back here?');
+  fetch('https://api.github.com/repos/CallumBeaney/CallumBeaney.github.io/commits?per_page=1')
+    .then(function (r) { return r.json(); })
+    .then(function (commits) {
+      if (!commits || !commits[0] || !commits[0].commit) return;
+      var date = new Date(commits[0].commit.committer.date);
+      var y = date.getFullYear();
+      var m = String(date.getMonth() + 1).padStart(2, '0');
+      var d = String(date.getDate()).padStart(2, '0');
+      document.getElementById('lastUpdated').textContent = 'Last updated ' + y + '/' + m + '/' + d;
+    })
+    .catch(function () { });
+</script>
+
+</html>

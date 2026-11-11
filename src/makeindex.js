@@ -19,11 +19,12 @@ function populateIndex(indexReference)
   {
     const isExternal = /^https?:\/\//i.test(info.link);
     const targetAttr = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
-    const link    = '<a class="grid-item ' + info.type + '" href="' + info.link + '"' + targetAttr + '>';
+    const link    = '<a class="grid-item ' + info.type + (isExternal ? ' external' : '') + '" href="' + info.link + '"' + targetAttr + '>';
     const image   = (info.image != null) ? '<img src="' + info.image + '"></img>' : "";
     const title   = '<div><p><b>' + info.name + '</b>  ';
     const crumbs  = '<i>' + info.year + '・' + info. field + '<br></i>';      
     const text    = info.text;
+    const externalNote = isExternal ? '<span class="external-note" aria-hidden="true">↗</span>' : '';
 
     let postFace  = (info.author != null || info.company != null) ? '<i> — with ' : "";
 
@@ -35,7 +36,7 @@ function populateIndex(indexReference)
         postFace += info.company + '</i>';
     }
 
-    const compiled = link + image + title + crumbs + text + postFace + '</p></div></a>';
+    const compiled = link + image + title + crumbs + text + postFace + '</p></div>' + externalNote + '</a>';
     serve += compiled;
   } 
 
@@ -70,7 +71,9 @@ return newObj;
   populateIndex(_tertiaryPages); 
 
   _endPages = shuffleObject(endPages);
-  populateIndex(_endPages); 
+  populateIndex(_endPages);
+
+  populateIndex(finalPages);
 }();
 
 
