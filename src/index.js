@@ -27,19 +27,6 @@ primaryPages = {
     rank: 1,
   },
 
-  sunSpots: {
-    name: "Courtyard",
-    author: null,
-    company: null,
-    field: "Photography",
-    year: "2025",
-    text: "I wanted to multiply a thin strip of sunlight filtering through the trees",
-    link: "./pages/sunspots/sunspots.html",
-    image: "./index_images/sunspots.jpg",
-    type: "photography",
-    rank: 1,
-  },
-
   middle: {
     name: "Middle English Mouse Dictionary",
     author: "Alex Baker",
@@ -116,6 +103,18 @@ primaryPages = {
     image: "./index_images/hanziFudger.png",
   },
 
+
+  shangrao: {
+    name: "上饒你好 (Dummy)",
+    author: null,
+    company: null,
+    field: "Concertina Photobook",
+    year: 2026,
+    text: "'Hello Shangrao', a book of pictures taken during a hometown visit",
+    link: "https://www.youtube.com/watch?v=cYbI2_HqsxM",
+    image: "./index_images/shangrao.jpg",
+    rank: 1,
+  },
   // flowerShow: {
   //   name: "<moji class='bold'>everyone's buying eachother flowers</moji>",
   //   author: null,
