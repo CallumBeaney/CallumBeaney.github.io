@@ -132,6 +132,19 @@ primaryPages = {
 
 secondaryPages = {
 
+  sunSpots: {
+    name: "Courtyard",
+    author: null,
+    company: null,
+    field: "Photography",
+    year: "2025",
+    text: "I wanted to multiply a thin strip of sunlight filtering through the trees",
+    link: "./pages/sunspots/sunspots.html",
+    image: "./index_images/sunspots.jpg",
+    type: "photography",
+    rank: 1,
+  },
+
   tunnel: {
     name: "Tunnel Book Viewer",
     author: 'Printer Scanner',
